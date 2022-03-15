@@ -1,0 +1,37 @@
+{
+    "_id": {
+        "$oid": "62255750f1fa2956c23db65e"
+    },
+    "nombre": "Se perdió Firulais",
+    "status": "true",
+    "descripcion": "Se dará recompensa",
+    "tipo": "PERDIDO",
+    "lugar": "Por el mercado San Camilo",
+    "contacto": {
+        "$oid": "62255353eb26d1e5c17cdedf",
+        "nombre": "Pancracio",
+        "apellido": "Apellido de Pancracio",
+        "correo": "correo@correo.com",
+        "telefono": "984637284",
+        "contraseña": "743785rw8yefhairufaiurhglre834uer"
+    },
+    "mascota": {
+        "$oid": "62255353eb26d1e5c17cdedf",
+        "nombre": "Firulais",
+        "especie": "Perro",
+        "raza": "mestizo",
+        "sexo": "macho",
+        "edad_aprox": "2 y medio",
+        "tamano": "mediano",
+        "estado": "perdido",
+        "foto": "asfnkwlanr4",
+        "descripcion": "Tiene una manchita en el ojo izquierdo",
+        "n_chip": "no tiene"
+    },
+    "createdAt": {
+        "$date": "2022-03-07T00:52:32.831Z"
+    },
+    "updatedAt": {
+        "$date": "2022-03-07T00:52:32.831Z"
+    }
+}

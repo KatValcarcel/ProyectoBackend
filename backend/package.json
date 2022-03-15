@@ -1,0 +1,27 @@
+{
+  "name": "mascotasperdidas",
+  "version": "1.0.0",
+  "description": "Proyecto para buscar y encontrar mascotas perdidas en Arequipa",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "dotenv -e .env nodemon ./src/server.js"
+  },
+  "keywords": [
+    "express",
+    "mongo",
+    "nosql",
+    "multer"
+  ],
+  "author": "Kat Valcarcel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.6",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^5.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
