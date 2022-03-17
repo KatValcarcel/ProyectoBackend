@@ -8,4 +8,8 @@ export class ContactoService {
       console.log(error);
     }
   }
+  static async devolver() {
+    const contactos = await Contacto.find();
+    return contactos;
+  }
 }

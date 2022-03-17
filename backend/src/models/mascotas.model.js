@@ -1,29 +1,45 @@
 import mongoose from "mongoose";
 
 const mascotaSchema = new mongoose.Schema({
-  contactName: {
+  nombre: {
     type: mongoose.Schema.Types.String,
-    alias: "nombre",
     required: true,
-    nested: {
-      firstName: { type: String },
-      lastName: { type: String },
-    },
+    alias: "nombreMascota",
   },
-  email: {
+  especie: {
     type: mongoose.Schema.Types.String,
+    enum: ["PERRO", "GATO"],
     required: true,
-    unique: true,
   },
-  phoneNumber: {
+  raza: {
     type: mongoose.Schema.Types.String,
-    alias: "phone",
-    required: true,
-    unique: true,
-    maxLength: 9,
+    // required: true,
   },
-  password: {
+  color: {
     type: mongoose.Schema.Types.String,
     required: true,
+  },
+  sexo: {
+    type: mongoose.Schema.Types.String,
+    enum: ["MACHO", "HEMBRA"],
+    required: true,
+  },
+  edad_aprox: {
+    type: mongoose.Schema.Types.String,
+  },
+  mascotaImagen: {
+    type: mongoose.Schema.Types.String,
+    alias: "imagen",
+  },
+  descripcion: {
+    type: mongoose.Schema.Types.String,
+  },
+  estado: {
+    type: mongoose.Schema.Types.String,
+    required: true,
+    enum: ["Perdido", "Encontrado", "EnCasa"],
+    alias: "estadoMascota",
   },
 });
+
+export const Mascota = mongoose.model("mascota", mascotaSchema);

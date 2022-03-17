@@ -1,9 +1,8 @@
 import mongoose from "mongoose";
 
 const contactoSchema = new mongoose.Schema({
-  contactName: {
+  nombre: {
     type: mongoose.Schema.Types.String,
-    alias: "nombre",
     required: true,
     nested: {
       firstName: { type: String },
