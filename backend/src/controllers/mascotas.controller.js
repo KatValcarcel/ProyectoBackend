@@ -18,3 +18,14 @@ export async function devolverMascotas(req, res) {
   const resultado = await MascotaService.devolver();
   return res.json(resultado);
 }
+export async function eliminarMascota(req, res) {
+  const resultado = await MascotaService.eliminar(req.params.id);
+
+  if (resultado) {
+    return res.json(resultado);
+  } else {
+    return res.status(400).json({
+      message: "Error al eliminar la mascota",
+    });
+  }
+}

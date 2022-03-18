@@ -17,3 +17,5 @@ const publicacionSchema = new mongoose.Schema(
   },
   { timestamps: { createdAt: true, updatedAt: true } }
 );
+
+export const Publicacion = mongoose.model("publicacion", publicacionSchema);

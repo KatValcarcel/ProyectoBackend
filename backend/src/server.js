@@ -5,6 +5,9 @@ import { imagenRouter } from "./routes/imagen.routes.js";
 import { mascotaRouter } from "./routes/mascota.routes.js";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
+import sgMail from "@sendgrid/mail";
+
+sgMail.setApiKey(process.env.MASCOTAS_EMAIL);
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -16,7 +19,7 @@ const PORT = process.env.PORT ?? 3000;
 app.use(contactoRouter);
 app.use(mascotaRouter);
 app.use(imagenRouter);
-app.use("/assets", express.static(__dirname + "/images"));
+app.use("/media", express.static(__dirname + "/images"));
 
 app.listen(PORT, async () => {
   console.log(`Server runnning on port ${PORT}`);

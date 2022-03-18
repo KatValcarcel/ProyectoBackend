@@ -4,10 +4,10 @@ const contactoSchema = new mongoose.Schema({
   nombre: {
     type: mongoose.Schema.Types.String,
     required: true,
-    nested: {
-      firstName: { type: String },
-      lastName: { type: String },
-    },
+    // nested: {
+    //   firstName: { type: String },
+    //   lastName: { type: String },
+    // },
   },
   email: {
     type: mongoose.Schema.Types.String,
@@ -17,7 +17,7 @@ const contactoSchema = new mongoose.Schema({
   telefono: {
     type: mongoose.Schema.Types.String,
     required: true,
-    unique: true,
+    // unique: true,
     maxLength: 9,
   },
   password: {
