@@ -16,9 +16,9 @@ const multerMiddleware = Multer({
   storage: almacenamiento,
   limits: { filesize: 2 * 1024, files: 3 },
 });
-
+// TODO: poder subir más de 2 imágenes
 imagenRouter.post(
   "/subir-imagen/:id",
-  multerMiddleware.array("imagen"),
+  multerMiddleware.single("imagen"),
   subirImagen
 );
