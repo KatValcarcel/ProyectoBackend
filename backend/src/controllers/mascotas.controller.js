@@ -9,7 +9,7 @@ export async function crearMascota(req, res) {
   } catch (error) {
     return res.status(400).json({
       message: "Error al crear la mascota",
-      content: error,
+      content: error.message,
     });
   }
 }

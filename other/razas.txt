@@ -1,0 +1,339 @@
+			
+Mestizo - Desconozco La Raza - Mestizo - Desconozco La Raza			
+Affenpinscher - Affenpinscher			
+Aïdi  - Aïdi			
+Airedale Terrier - Airedale Terrier			
+Akita - Akita			
+Akita Americano - American Akita 			
+American Bully - American Bully			
+American Cocker Spaniel  - American Cocker Spaniel 			
+American Foxhound - American Foxhound			
+American Staffordshire Terrier - American Staffordshire Terrier			
+Antiguo Perro De Muestra Danés - Gammel Dansk Hønsehund 			
+Antiguo Perro De Pastor Inglés - Old English Sheepdog			
+Australian Kelpie - Australian Kelpie			
+Australian Terrier - Australian Terrier			
+Azawakh - Azawakh			
+Basenji - Basenji			
+Basset Artesiano De Normandía - Basset Artesien Normand			
+Basset Azul De Gascuña - Basset Bleu De Gascogne			
+Basset Hound - Basset Hound			
+Basset Leonado De Bretaña - Basset Fauve De Bretagne			
+Beagle - Beagle			
+Beagle-harrier - Beagle Harrier 			
+Bedlington Terrier - Bedlington Terrier			
+Bichón Boloñés - Bolognese 			
+Bichon De Pelo Rizado - Bichon A Poil Frise			
+Bichon Habanero - Bichon Havanais			
+Bichon Maltés - Maltese			
+Billy - Billy			
+Border Collie - Border Collie			
+Border Terrier - Border Terrier			
+Borzoi - Lebrel Ruso Para La Caza - Russkaya Psovaya Borzaya			
+Boston Terrier - Boston Terrier			
+Boxer - Deutscher Boxer			
+Boyero Australiano - Australian Cattle Dog			
+Boyero De Entlebuch - Entlebucher Sennenhund			
+Boyero De Flandes - Bouvier Des Flandres/vlaamse Koehond			
+Boyero De Las Ardenas - Bouvier Des Ardennes			
+Boyero De Montana Bernes - Berner Sennenhund			
+Braco Alemán De Pelo Corto - Deutsch Kurzhaar			
+Braco De Auvernia - Braque D'auvergne 			
+Braco Del Ariege - Braque De L'ariege			
+Braco Del Borbonesado - Braque Du Bourbonnais			
+Braco Eslovaco De Pelo Duro - Slovenský Hrubosrstý Stavac (ohar)			
+Braco Francés - Tipo Gascuña - Braque Français - Type Gascogne 			
+Braco Francés - Tipo Pirineos - Braque Français - Type Pyrenees 			
+Braco Húngaro De Pelo Corto - Rövidszörü Magyar Vizsla			
+Braco Húngaro De Pelo Duro - Drötzörü Magyar Vizsla 			
+Braco Italiano - Bracco Italiano 			
+Braco Saint-germain - Braque Saint-germain 			
+Briquet Grifon Vendeano - Briquet Griffon Vendeen			
+Broholmer - Broholmer			
+Buhund Noruego - Norsk Buhund			
+Bull Terrier - Bull Terrier			
+Bull Terrier Miniatura - Miniature Bull Terrier			
+Bulldog - Bulldog			
+Bulldog Francés - Bouledogue Français			
+Bullmastiff - Bullmastiff			
+Cairn Terrier - Cairn Terrier			
+Canaan Dog - Canaan Dog			
+Caniche - Caniche			
+Cavalier King Charles Spaniel - Cavalier King Charles Spaniel			
+Cazador De Alces Noruego Gris - Norsk Elghund Grå 			
+Cazador De Alces Noruego Negro - Norsk Elghund Sort 			
+Chesapeake Bay Retriever - Chesapeake Bay Retriever			
+Chien De Saint Hubert - Chien De Saint Hubert			
+Chihuahueño - Chihuahueño			
+Chow Chow - Chow Chow			
+Cirneco Del Etna - Cirneco Dell'etna			
+Clumber Spaniel - Clumber Spaniel			
+Cobrador De Pelo Liso - Flat Coated Retriever 			
+Cobrador De Pelo Rizado - Curly Coated Retriever 			
+Cocker Spaniel Inglés - English Cocker Spaniel			
+Collie Barbudo - Bearded Collie			
+Collie De Pelo Corto - Collie Smooth			
+Collie De Pelo Largo - Collie Rough			
+Coton De Tulear - Coton De Tulear			
+Dachsbracke De Los Alpes - Alpenländische Dachsbracke 			
+Dálmata - Dalmatinski Pas			
+Dandie Dinmont Terrier - Dandie Dinmont Terrier			
+Dóberman - Dobermann			
+Dogo Argentino - Dogo Argentino			
+Dogo Canario - Dogo Canario			
+Dogo De Burdeos - Dogue De Bordeaux			
+Dogo Del Tibet - Do-khyi			
+Doguillo - Pug			
+Espinone - Spinone Italiano			
+Eurásico - Eurasier			
+Field Spaniel - Field Spaniel			
+Fila Brasileño - Fila Brasileiro			
+Fila De San Miguel - Cão Fila De São Miguel			
+Fox Terrier De Pelo Alambre - Fox Terrier Wire			
+Fox Terrier De Pelo Liso - Fox Terrier Smooth			
+Foxhound Inglés - English Foxhound			
+Galgo Español - Galgo Español			
+Gascon Saintongeois - Gascon Saintongeois			
+Golden Retriever / Cobrador Dorado - Golden Retriever			
+Gran Basset Grifón Vendeano - Grand Basset Griffon Vendeen			
+Gran Boyero Suizo - Grosser Schweizer Sennenhund			
+Gran Danés - Deutsche Dogge			
+Gran Grifon Vendeano - Grand Griffon Vendeen			
+Gran Munsterlander - Grosser Münsterländer Vorstehhund			
+Gran Sabueso Anglo-francés Blanco Y Naranja - Grand Anglo-français Blanc Et Orange 			
+Gran Sabueso Anglo-francés Blanco Y Negro - Grand Anglo-français Blanc Et Noir 			
+Gran Sabueso Anglo-francés Tricolor - Grand Anglo-français Tricolore 			
+Gran Sabueso Azul De Gascuña - Grand Bleu De Gascogne			
+Greyhound - Greyhound			
+Griffon Belge - Griffon Belge			
+Griffon Bruxellois - Griffon Bruxellois			
+Grifón Azul De Gascuña - Griffon Bleu De Gascogne 			
+Grifón De Muestra Bohemio De Pelo Duro - Ceský Fousek			
+Grifón De Muestra De Pelo Duro) - Griffon A Poil Dur Korthals			
+Grifón Del Nivernais - Griffon Nivernais			
+Grifón Leonado De Bretaña - Griffon Fauve De Bretagne 			
+Harrier - Harrier			
+Hokkaido - Hokkaido			
+Hovawart - Hovawart			
+Husky Siberiano - Siberian Husky			
+Kai - Kai			
+Kerry Blue Terrier - Kerry Blue Terrier			
+King Charles Spaniel - King Charles Spaniel			
+Kishu - Kishu			
+Komondor - Komondor			
+Korea Jindo Dog - Korea Jindo Dog			
+Kromfohrländer - Kromfohrländer			
+Kuvasz - Kuvasz			
+Labrador Retriever - Labrador Retriever			
+Laika De Siberia Occidental - Zapadno-sibirskaïa Laïka			
+Laika De Siberia Oriental - Vostotchno-sibirskaïa Laïka			
+Laika Ruso-europeo - Russko-evropeïskaïa Laïka			
+Lakeland Terrier - Lakeland Terrier			
+Landseer - Landseer 			
+Lebrel Afgano - Afghan Hound			
+Lebrel Escocés - Deerhound			
+Lebrel Húngaro - Magyar Agar			
+Lebrel Irlandés - Irish Wolfhound 			
+Lebrel Polaco - Chart Polski			
+Leonberger - Leonberger			
+Lhasa Apso - Lhasa Apso			
+Lundehund Noruego - Norsk Lundehund 			
+Malamute De Alaska - Alaskan Malamute			
+Manchester Terrier - Manchester Terrier			
+Mastiff - Mastiff			
+Mastín Del Pirineo - Mastín Del Pirineo			
+Mastín Español - Mastín Español			
+Mastin Napolitano - Mastino Napoletano 			
+Mudi - Mudi			
+Nederlandse Kooikerhondje - Nederlandse Kooikerhondje			
+Norfolk Terrier - Norfolk Terrier			
+Norwich Terrier - Norwich Terrier			
+Parson Russell Terrier - Parson Russell Terrier 			
+Pastor Alemán - Deutscher Schäferhund			
+Pastor Belga Malinois  - Belgian Shepherd Malinois			
+Pastor Bergamasco - Cane Da Pastore Bergamasco			
+Pastor Blanco Suizo - Berger Blanc Suisse			
+Pastor Catalán - Gos D'atura Catalá			
+Pastor De Beauce - Berger De Beauce			
+Pastor De Brie - Berger De Brie			
+Pastor De Karst - Kraski Ovcar			
+Pastor De Los Pirineos De Cara Rasa - Chien De Berger Des Pyrenees A Face Rase			
+Pastor De Picardía - Berger Picard			
+Pastor Finlandés De Laponia - Lapinporokoira			
+Pastor Holandés - Hollandse Herdershond			
+Pastor Polaco De Podhale - Polski Owczarek Podhalanski			
+Pekines - Pekingese			
+Pequeño Basset Grifón Vendeano - Petit Basset Griffon Vendeen 			
+Pequeño Lebrel Italiano - Piccolo Levriero Italiano			
+Pequeño Münsterländer - Kleiner Münsterländer			
+Pequeño Perro León - Petit Chien Lion			
+Pequeño Sabueso Azul De Gascuña - Petit Bleu De Gascogne			
+Perdiguero Alemán - Deutscher Wachtelhund 			
+Perdiguero De Burgos - Perdiguero De Burgos			
+Perdiguero De Drente - Drentsche Patrijshond			
+Perdiguero Frisón - Stabyhoun			
+Perdiguero Portugués - Perdigueiro Português			
+Perro Boyero De Appenzell - Appenzeller Sennenhund			
+Perro Cazador De Alces Sueco - Jämthund			
+Perro Cobrador De Nueva Escocia - Nova Scotia Duck Tolling Retriever			
+Perro Corso Italiano - Cane Corso Italiano			
+Perro Crestado Chino - Chinese Crested Dog 			
+Perro Crestado Rodesiano - Rhodesian Ridgeback			
+Perro De Agua Americano - American Water Spaniel			
+Perro De Agua De Romagna - Lagotto Romagnolo 			
+Perro De Agua Español - Perro De Agua Español			
+Perro De Agua Francés - Barbet 			
+Perro De Agua Frison - Wetterhoun			
+Perro De Agua Irlandés - Irish Water Spaniel			
+Perro De Agua Portugués - Cão De Agua Português			
+Perro De Castro Laboreiro - Cão De Castro Laboreiro			
+Perro De Groenlandia - Grønlandshund			
+Perro De La Sierra De La Estrela - Cão Da Serra Da Estrela			
+Perro De Montaña De Los Pirineos - Chien De Montagne Des Pyrenees			
+Perro De Muestra Alemán De Pelo Cerdoso - Deutsch Stichelhaar			
+Perro De Muestra Alemán De Pelo Duro - Deutsch Drahthaar			
+Perro De Muestra Alemán De Pelo Largo - Deutsch Langhaar 			
+Perro De Nutria - Otterhound			
+Perro De Osos De Carelia - Karjalankarhukoira			
+Perro De Pastor Belga - Chien De Berger Belge			
+Perro De Pastor De Anatolia - Coban Köpegi			
+Perro De Pastor De La Maremma Y De Los Abruzos - Cane Da Pastore Maremmano-abruzzese			
+Perro De Pastor De Rusia Meridional - Ioujnorousskaia Ovtcharka			
+Perro De Pastor Islandés - Islenskur Fjárhundur			
+Perro De Pastor Mallorquĺn - Ca De Bestiar			
+Perro De Pastor Polaco De Las Llanuras -  Polski Owczarek Nizinny			
+Perro De Pastor Portugués - Cão Da Serra De Aires			
+Perro De Pastor Yugoslavo De Charplanina - Jugoslovenski Ovcarski Pas-sarplaninac 			
+Perro Del Faraón - Pharaoh Hound 			
+Perro Dogo Mallorquín - Ca De Bou			
+Perro Finlandés De Laponia - Suomenlapinkoira			
+Perro Lobo Checoslovaco - Ceskoslovenský Vlciak			
+Perro Lobo De Saarloos - Saarlooswolfhond			
+Perro Negro Y Fuego Para La Caza Del Mapache - Black And Tan Coonhound			
+Perro Pastor Australiano - Australian Shepherd			
+Perro Pastor Croato - Hrvatski Ovcar			
+Perro Pastor De Asia Central - Sredneasiatskaya Ovtcharka			
+Perro Pastor De Los Pirineos De Pelo Largo - Chien De Berger Des Pyrenees A Poil Long			
+Perro Pastor De Shetland - Shetland Sheepdog			
+Perro Pastor Del Cáucaso - Kavkazskaïa Ovtcharka			
+Perro San Bernardo - St.bernhardshund - Bernhardiner			
+Perro Sin Pelo Del Perú - Perro Sin Pelo Del Perú			
+Perro Smous Holandés - Hollandse Smoushond			
+Perro Sueco De Laponia - Svensk Lapphund 			
+Perro Tejonero De Westfalia - Westfälische Dachsbracke			
+Perro Tejonero Sueco - Drever			
+Petit Brabançon - Petit Brabançon			
+Pinscher Alemán - Deutscher Pinscher			
+Pinscher Austriaco - österreichischer Pinscher 			
+Pinscher Miniatura - Zwergpinscher			
+Podenco Andaluz - Podenco Andaluz			
+Podenco Canario - Podenco Canario			
+Podenco Ibicenco - Podenco Ibicenco			
+Podenco Portugués - Podengo Português 			
+Pointer Inglés - English Pointer			
+Porcelaine - Porcelaine			
+Pudelpointer - Pudelpointer			
+Puli - Puli			
+Pumi - Pumi			
+Rafeiro Del Alentejo - Rafeiro Do Alentejo 			
+Rastreador De Hannover - Hannover'scher Schweisshund 			
+Rastreador Montañes De Baviera - Bayerischer Gebirgsschweisshund			
+Ratonero Valenciano - Ratonero Valenciano			
+Rottweiler - Rottweiler			
+Sabueso Alemán - Deutsche Bracke			
+Sabueso Anglo-francés De Tamaño Mediano - Anglo-français De Petite Venerie 			
+Sabueso Artesiano - Chien D'artois			
+Sabueso Austriaco Negro Y Fuego - Brandlbracke - (vieräugl) 			
+Sabueso De Bosnia De Pelo Cerdoso-llamado Barak - Bosanski Ostrodlaki Gonic-barak			
+Sabueso De Hygen - Hygenhund			
+Sabueso De Istria De Pelo Corto - Istarski Kratkodlaki Gonic			
+Sabueso De Istria De Pelo Duro - Istarski Ostrodlaki Gonic			
+Sabueso De Montaña Del Montenegro - Crnogorski Planinski Gonic 			
+Sabueso De Småland - Smålandsstövare			
+Sabueso De Transilvania - Erdélyi Kopó			
+Sabueso Del Ariege - Ariegeois			
+Sabueso Del Tirol - Tiroler Bracke			
+Sabueso Del Valle De Save - Posavski Gonic			
+Sabueso Eslovaco - Slovenský Kopov			
+Sabueso Español - Sabueso Español			
+Sabueso Estirio De Pelo áspero - Steirische Rauhhaarbracke			
+Sabueso Finlandés - Suomenajokoira			
+Sabueso Francés Blanco Y Naranja - Français Blanc Et Orange			
+Sabueso Francés Blanco Y Negro - Français Blanc Et Noir			
+Sabueso Francés Tricolor - Français Tricolore			
+Sabueso Halden - Haldenstøver			
+Sabueso Hamilton - Hamiltonstövare			
+Sabueso Helénico - Hellinikos Ichnilatis			
+Sabueso Húngaro - Sabueso De Transilvania - Erdélyi Kopó			
+Sabueso Italiano De Pelo Duro - Segugio Italiano A Pelo Forte			
+Sabueso Italiano De Pelo Raso - Segugio Italiano A Pelo Raso			
+Sabueso Noruego - Dunker			
+Sabueso Poitevin - Poitevin			
+Sabueso Polaco - Ogar Polski 			
+Sabueso Schiller - Schillerstövare			
+Sabueso Serbio - Srpski Gonic			
+Sabueso Suizo - Schweizer Laufhund			
+Sabueso Suizo Pequeño - Schweizerischer Niederlaufhund			
+Sabueso Tricolor Serbio - Srpski Trobojni Gonic			
+Saluki  - Saluki 			
+Samoyedo - Samoiedskaïa Sabaka			
+Schapendoes Neerlandés - Nederlandse Schapendoes			
+Schipperke - Schipperke			
+Schnauzer  - Schnauzer 			
+Schnauzer Gigante - Riesenschnauzer			
+Schnauzer Miniatura - Zwergschnauzer			
+Scottish Terrier - Scottish Terrier			
+Sealyham Terrier - Sealyham Terrier			
+Setter Gordon - Gordon Setter 			
+Setter Inglés - English Setter 			
+Setter Irlandés Rojo - Irish Red Setter			
+Setter Irlandés Rojo Y Blanco - Irish Red And White Setter			
+Shar Pei - Shar Pei			
+Shiba - Shiba			
+Shih Tzu - Shih Tzu			
+Shikoku - Shikoku			
+Skye Terrier - Skye Terrier			
+Sloughi - Sloughi			
+Soft Coated Wheaten Terrier Irlandés - Irish Soft Coated Wheaten Terrier			
+Spaniel Azul De Picardia - Epagneul Bleu De Picardie 			
+Spaniel Bretón - Epagneul Breton			
+Spaniel Continental Enano De Compañía - Epagneul Nain Continental			
+Spaniel De Pont-audemer - Epagneul De Pont-audemer			
+Spaniel Francés - Epagneul Français			
+Spaniel Japonés - Chin 			
+Spaniel Picardo - Epagneul Picard			
+Spaniel Tibetano - Tibetan Spaniel			
+Spitz Alemán - Deutscher Spitz			
+Spitz De Los Visigodos - Vallhund Sueco - Västgötaspets			
+Spitz De Norrbotten - Norrbottenspets			
+Spitz Finlandés - Suomenpystykorva			
+Spitz Japonés - Nihon Supittsu			
+Springer Spaniel Galés - Welsh Springer Spaniel			
+Springer Spaniel Inglés - English Springer Spaniel			
+Staffordshire Bull Terrier - Staffordshire Bull Terrier			
+Sussex Spaniel  - Sussex Spaniel 			
+Tchuvatch Eslovaco - Slovenský Cuvac			
+Teckel - Dachshund 			
+Terranova - Newfoundland 			
+Terrier Brasileño - Terrier Brasileiro 			
+Terrier Cazador Alemán - Deutscher Jagdterrier			
+Terrier Checo - Ceský Terier 			
+Terrier De Juguete Inglés - English Toy Terrier			
+Terrier Glen De Imaal Irlandés - Irish Glen Of Imaal Terrier			
+Terrier Irlandés - Irish Terrier			
+Terrier Jack Russell - Jack Russell Terrier			
+Terrier Japonés - Nihon Teria 			
+Terrier Ruso Negro - Russkiy Tchiorny Terrier			
+Terrier Sedoso Australiano - Australian Silky Terrier			
+Terrier Tibetano - Tibetan Terrier			
+Thai Ridgeback Dog - Thai Ridgeback Dog			
+Tosa - Tosa			
+Volpino Italiano - Volpino Italiano			
+Weimaraner - Weimaraner			
+Welsh Corgi Cardigan - Welsh Corgi Cardigan			
+Welsh Corgi Pembroke - Welsh Corgi Pembroke			
+Welsh Terrier - Welsh Terrier			
+West Highland White Terrier - West Highland White Terrier			
+Whippet - Whippet			
+Xoloitzcuintle - Xoloitzcuintle			
+Yorkshire Terrier - Yorkshire Terrier

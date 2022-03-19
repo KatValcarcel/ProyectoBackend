@@ -8,7 +8,8 @@ const mascotaSchema = new mongoose.Schema({
   },
   especie: {
     type: mongoose.Schema.Types.String,
-    enum: ["PERRO", "GATO"],
+    enum: ["PERRO", "GATO", "OTROS"],
+    default: "OTROS",
     required: true,
   },
   raza: {
@@ -24,21 +25,23 @@ const mascotaSchema = new mongoose.Schema({
     enum: ["MACHO", "HEMBRA"],
     required: true,
   },
-  edad_aprox: {
-    type: mongoose.Schema.Types.String,
-  },
+  edad_aprox: mongoose.Schema.Types.String,
   mascotaImagen: {
     type: mongoose.Schema.Types.String,
     alias: "imagen",
   },
-  descripcion: {
-    type: mongoose.Schema.Types.String,
-  },
+  descripcion: mongoose.Schema.Types.String,
   estado: {
     type: mongoose.Schema.Types.String,
     required: true,
     enum: ["Perdido", "Encontrado", "EnCasa"],
     alias: "estadoMascota",
+  },
+  contacto: {
+    type: mongoose.Schema.Types.ObjectId,
+  },
+  publicaciones: {
+    type: [mongoose.Schema.Types.ObjectId],
   },
 });
 
