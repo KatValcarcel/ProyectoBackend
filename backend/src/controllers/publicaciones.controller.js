@@ -22,6 +22,11 @@ export async function devolverPublicacionesPerdidos(req, res) {
   const resultado = await publicacionService.devolverMascotasPerdidas();
   return res.json(resultado);
 }
+export async function obtenerPublicaciones(req, res) {
+  const resultado = await publicacionService.listar();
+  return res.status(200).json(resultado);
+}
+
 export async function eliminarPublicacion(req, res) {
   const resultado = await publicacionService.eliminar(req.params.id);
 
