@@ -5,18 +5,16 @@ import fs from "fs";
 export class MascotaService {
   // TODO: Se debe jalar del usuario logueado para establecer la relación
   static async crear(data) {
-    //buscar raza : devuelve raza null
-    // const { razaId } = data;
-    // console.log(razaId);
-    // const razaEncontrada = await Raza.findById(razaId);
-    // console.log("Raza: ", razaEncontrada);
-    // if (!razaEncontrada) {
-    //   return {
-    //     message: "Id de raza inválido",
-    //   };
-    // }
+    //buscar raza
+    const { razaId } = data;
+    const razaEncontrada = await Raza.findById(razaId);
+    if (!razaEncontrada) {
+      return {
+        message: "Id de raza inválido",
+      };
+    }
     // validar que no exista esa mascota del mismo dueño previamente .findOne({ nombreMascota, contactoId});
-    // const registro = await Mascota.findOne({ mascotaId});
+    // const registro = await Mascota.findOne({ });
     // if (registro) {
     //   return {
     //     message: "Ya hay una mascota registrada",
@@ -55,5 +53,9 @@ export class MascotaService {
     } catch (error) {
       console.error(error);
     }
+  }
+  static async get(id) {
+    const mascota = await Mascota.findById(id);
+    return mascota;
   }
 }

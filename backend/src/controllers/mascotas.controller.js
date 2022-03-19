@@ -18,6 +18,10 @@ export async function devolverMascotas(req, res) {
   const resultado = await MascotaService.devolver();
   return res.json(resultado);
 }
+export async function getMascota(req, res) {
+  const mascota = await MascotaService.get(req.params.id);
+  res.status(200).json({ mascota });
+}
 export async function eliminarMascota(req, res) {
   const resultado = await MascotaService.eliminar(req.params.id);
 

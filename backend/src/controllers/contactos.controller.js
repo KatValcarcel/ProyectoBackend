@@ -14,7 +14,7 @@ export async function registrarContacto(req, res) {
   }
 }
 
-//yo no necesito la lista de usuarios, si se usa hay que poner la ruta .get(devolverContactos)
+//No necesito la lista de usuarios, si se usa hay que poner la ruta .get(devolverContactos)
 
 // export async function devolverContactos(req, res) {
 //   const resultado = await ContactoService.devolver();

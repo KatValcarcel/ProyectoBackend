@@ -13,4 +13,8 @@ export class RazaService {
     const razas = await Raza.find().sort([["nombreRaza", "ascending"]]);
     return razas;
   }
+  static async get(id) {
+    const raza = await Raza.findById(id);
+    return raza;
+  }
 }

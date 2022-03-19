@@ -1,5 +1,6 @@
 import { RazaService } from "../services/razas.service.js";
 import { razaDto } from "../dto/request/raza.dto.js";
+import { Raza } from "../models/razas.model.js";
 
 export async function crearRaza(req, res) {
   try {
@@ -17,4 +18,8 @@ export async function crearRaza(req, res) {
 export async function devolverRazas(req, res) {
   const resultado = await RazaService.devolver();
   return res.json(resultado);
+}
+export async function getRaza(req, res) {
+  const raza = await RazaService.get(req.params.id);
+  res.status(200).json({ raza });
 }
