@@ -5,6 +5,10 @@ const razaSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.String,
     required: true,
   },
+  // especie: {
+  //   type: mongoose.Schema.Types.String,
+  //   required: true,
+  // },
 });
 
 export const Raza = mongoose.model("raza", razaSchema);

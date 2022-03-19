@@ -12,8 +12,8 @@ const mascotaSchema = new mongoose.Schema({
     default: "OTROS",
     required: true,
   },
-  raza: {
-    type: mongoose.Schema.Types.String,
+  razaId: {
+    type: mongoose.Schema.Types.ObjectId,
     // required: true,
   },
   color: {
@@ -31,12 +31,12 @@ const mascotaSchema = new mongoose.Schema({
     alias: "imagen",
   },
   descripcion: mongoose.Schema.Types.String,
-  estado: {
-    type: mongoose.Schema.Types.String,
-    required: true,
-    enum: ["Perdido", "Encontrado", "EnCasa"],
-    alias: "estadoMascota",
-  },
+  // estado: {
+  //   type: mongoose.Schema.Types.String,
+  //   required: true,
+  //   enum: ["Perdido", "Encontrado", "EnCasa"],
+  //   alias: "estadoMascota",
+  // },
   contacto: {
     type: mongoose.Schema.Types.ObjectId,
   },

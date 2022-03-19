@@ -3,13 +3,13 @@ import validator from "validator";
 export function mascotaDto({
   nombre,
   especie,
-  raza,
+  // raza,
   color,
   sexo,
   edad_aprox,
   imagen,
   descripcion,
-  estado,
+  // estado,
 }) {
   if (validator.isEmpty(nombre)) {
     throw Error("El nombre no puede estar vacío");
@@ -23,12 +23,12 @@ export function mascotaDto({
   return {
     nombre,
     especie,
-    raza,
+    // raza,
     color,
     sexo,
     edad_aprox,
     imagen,
     descripcion,
-    estado,
+    // estado,
   };
 }

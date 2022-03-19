@@ -24,6 +24,9 @@ const contactoSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.String,
     required: true,
   },
+  mascotas: {
+    type: mongoose.Schema.Types.ObjectId,
+  },
 });
 
 export const Contacto = mongoose.model("contacto", contactoSchema);
