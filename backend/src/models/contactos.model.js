@@ -25,7 +25,7 @@ const contactoSchema = new mongoose.Schema({
     required: true,
   },
   mascotas: {
-    type: mongoose.Schema.Types.ObjectId,
+    type: [mongoose.Schema.Types.ObjectId],
   },
 });
 

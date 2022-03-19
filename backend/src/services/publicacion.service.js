@@ -30,6 +30,7 @@ export class publicacionService {
         ],
       }
     );
+    return nuevaPublicacion;
   }
   //   TODO ultimas 10
   static async devolverMascotasEncontradas() {
@@ -44,6 +45,11 @@ export class publicacionService {
     ]);
     return razas;
   }
+  static async listar() {
+    const publicaciones = await Publicacion.find().sort({ createdAt: "desc" });
+    return publicaciones;
+  }
+
   static async actualizar(data, id) {
     const publicacionActualizada = await Publicacion.findOneAndUpdate(
       { _id: id },
@@ -65,19 +71,4 @@ export class publicacionService {
       console.error(error);
     }
   }
-  //   static async get(id) {
-  //     const categoria = await Categoria.findById(id);
-
-  //     const productos = await Promise.all(
-  //       categoria.categoriaProducto.map(async (catProd) => {
-  //         const categoriaProducto = await CategoriaProducto.findById(catProd);
-
-  //         const prod = await Producto.findById(categoriaProducto.productoId);
-
-  //         return prod;
-  //       })
-  //     );
-
-  //     return { ...categoria._doc, productos };
-  //   }
 }

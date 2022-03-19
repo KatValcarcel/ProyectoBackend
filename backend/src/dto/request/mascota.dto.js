@@ -3,12 +3,13 @@ import validator from "validator";
 export function mascotaDto({
   nombre,
   especie,
-  // raza,
+  razaId,
   color,
   sexo,
   edad_aprox,
   imagen,
   descripcion,
+  contacto,
   // estado,
 }) {
   if (validator.isEmpty(nombre)) {
@@ -23,12 +24,13 @@ export function mascotaDto({
   return {
     nombre,
     especie,
-    // raza,
+    razaId,
     color,
     sexo,
     edad_aprox,
     imagen,
     descripcion,
+    contacto,
     // estado,
   };
 }

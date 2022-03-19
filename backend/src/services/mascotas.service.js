@@ -4,14 +4,17 @@ import { Raza } from "../models/razas.model.js";
 import fs from "fs";
 export class MascotaService {
   // TODO: Se debe jalar del usuario logueado para establecer la relación
-  static async crear(data, razaId) {
-    //buscar raza
-    const razaEncontrada = await Raza.findById(razaId);
-    if (!razaEncontrada) {
-      return {
-        message: "Id de raza inválido",
-      };
-    }
+  static async crear(data) {
+    //buscar raza : devuelve raza null
+    // const { razaId } = data;
+    // console.log(razaId);
+    // const razaEncontrada = await Raza.findById(razaId);
+    // console.log("Raza: ", razaEncontrada);
+    // if (!razaEncontrada) {
+    //   return {
+    //     message: "Id de raza inválido",
+    //   };
+    // }
     // validar que no exista esa mascota del mismo dueño previamente .findOne({ nombreMascota, contactoId});
     // const registro = await Mascota.findOne({ mascotaId});
     // if (registro) {
@@ -22,7 +25,7 @@ export class MascotaService {
 
     //crear
     //TODO: contactoID
-    const nuevaMascota = await Mascota.create({ data, razaId });
+    const nuevaMascota = await Mascota.create(data);
 
     //establecer relación en contacto
     // await Contacto.updateOne(
@@ -34,6 +37,7 @@ export class MascotaService {
     //     ],
     //   }
     // );
+    return nuevaMascota;
   }
   static async devolver() {
     const mascotas = await Mascota.find();
