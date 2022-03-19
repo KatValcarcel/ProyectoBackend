@@ -10,13 +10,13 @@ const publicacionSchema = new mongoose.Schema(
     activo: {
       type: mongoose.Schema.Types.Boolean,
     },
-    descripcion: {
-      type: mongoose.Schema.Types.String,
-    },
+    descripcion: mongoose.Schema.Types.String,
+
     fechaAprox: {
       type: mongoose.Schema.Types.Date,
       required: true,
     },
+    // TODO:jalar ubicación de algún servicio
     lugar: {
       type: mongoose.Schema.Types.String,
       required: true,

@@ -3,10 +3,17 @@ import {
   crearPublicacion,
   devolverPublicacionesEncontrados,
   devolverPublicacionesPerdidos,
-} from "../controllers/publicaciones.controller";
+  eliminarPublicacion,
+  obtenerPublicaciones,
+} from "../controllers/publicaciones.controller.js";
 
 export const publicacionRouter = Router();
 
-razaRouter.route("/publicacion").post(crearPublicacion);
-razaRouter.get("/publicaciones/perdidos", devolverPublicacionesPerdidos);
-razaRouter.get("/publicaciones/encontrados", devolverPublicacionesEncontrados);
+publicacionRouter.route("/publicacion").post(crearPublicacion);
+publicacionRouter.get("/publicaciones/perdidos", devolverPublicacionesPerdidos);
+publicacionRouter.get(
+  "/publicaciones/encontrados",
+  devolverPublicacionesEncontrados
+);
+publicacionRouter.get("/publicaciones", obtenerPublicaciones);
+publicacionRouter.route("/publicacion/:id").delete(eliminarPublicacion);

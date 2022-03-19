@@ -1,11 +1,12 @@
 import validator from "validator";
 
 export function publicacionDto({
-  activo,
   estado,
+  activo,
   descripcion,
   fechaAprox,
   lugar,
+  mascotaId,
 }) {
   if (!validator.isBoolean(activo)) {
     throw Error("El estado debe ser true o false");
@@ -26,5 +27,5 @@ export function publicacionDto({
       "Se debe colocar el lugar aproximado en donde se perdió/encontró"
     );
   }
-  return { activo, estado, descripcion, fechaAprox, lugar };
+  return { activo, estado, descripcion, fechaAprox, lugar, mascotaId };
 }

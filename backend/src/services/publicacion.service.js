@@ -2,8 +2,9 @@ import { Publicacion } from "../models/publicaciones.model.js";
 import { Mascota } from "../models/mascotas.model.js";
 
 export class publicacionService {
-  static async crear({ data, mascotaId }) {
+  static async crear(data) {
     //buscar mascota registrada
+    const { mascotaId } = data;
     const mascotaEncontrada = await Mascota.findById(mascotaId);
     if (!mascotaEncontrada) {
       return {
@@ -18,7 +19,7 @@ export class publicacionService {
       };
     }
     //crear
-    const nuevaPublicacion = await Publicacion.create({ data, mascotaId });
+    const nuevaPublicacion = await Publicacion.create(data);
 
     //establecer relación en mascota
     await Mascota.updateOne(
@@ -34,19 +35,19 @@ export class publicacionService {
   }
   //   TODO ultimas 10
   static async devolverMascotasEncontradas() {
-    const razas = await Publicacion.find({ estado: "ENCONTRADO" }).sort([
-      ["createdAt", "desc"],
-    ]);
+    const razas = await Publicacion.find({ estado: "ENCONTRADO" }).sort({
+      updatedAt: "desc",
+    });
     return razas;
   }
   static async devolverMascotasPerdidas() {
-    const razas = await Publicacion.find({ estado: "PERDIDO" }).sort([
-      ["createdAt", "asc"],
-    ]);
+    const razas = await Publicacion.find({ estado: "PERDIDO" }).sort({
+      updatedAt: "desc",
+    });
     return razas;
   }
   static async listar() {
-    const publicaciones = await Publicacion.find().sort({ createdAt: "desc" });
+    const publicaciones = await Publicacion.find().sort({ updatedAt: "desc" });
     return publicaciones;
   }
 
@@ -64,6 +65,19 @@ export class publicacionService {
 
   static async eliminar(id) {
     try {
+      //eliminar relación en mascota
+      const publicacion = await Publicacion.findById(id);
+      const { mascotaId } = publicacion;
+      const mascotaEncontrada = await Mascota.findById(mascotaId);
+      await Mascota.updateOne(
+        { _id: mascotaEncontrada._id },
+        {
+          $pullAll: {
+            publicaciones: [{ _id: publicacion._id }],
+          },
+        }
+      );
+
       const publicacionEliminada = await Publicacion.findByIdAndDelete(id);
 
       return publicacionEliminada;
