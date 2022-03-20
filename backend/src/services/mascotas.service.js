@@ -4,6 +4,7 @@ import { publicacionService } from "../services/publicacion.service.js";
 import { Raza } from "../models/razas.model.js";
 import fs from "fs";
 import { Publicacion } from "../models/publicaciones.model.js";
+import { ArchivosService } from "./archivos.service.js";
 export class MascotaService {
   // TODO: Se debe jalar del usuario logueado para establecer la relación
   static async crear(data) {
@@ -41,6 +42,7 @@ export class MascotaService {
   }
   static async devolver() {
     const mascotas = await Mascota.find();
+
     return mascotas;
   }
   static async eliminar(id) {
@@ -73,8 +75,14 @@ export class MascotaService {
         return publicacion;
       })
     );
-    return { ...mascota._doc, publicaciones };
+    //imagen
+    const mascotaConImagen = {
+      ...mascota._doc,
+      mascotaImagen: ArchivosService.devolverURL(mascota.mascotaImagen),
+    };
+    return { ...mascotaConImagen, publicaciones };
   }
+
   static async actualizar(data, id) {
     const mascotaActualizada = await Publicacion.findOneAndUpdate(
       { _id: id },
