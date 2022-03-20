@@ -13,6 +13,7 @@ const contactoSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.String,
     required: true,
     unique: true,
+    lowercase: true,
   },
   telefono: {
     type: mongoose.Schema.Types.String,

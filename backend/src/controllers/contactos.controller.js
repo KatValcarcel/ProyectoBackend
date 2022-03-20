@@ -16,21 +16,23 @@ export async function registrarContacto(req, res) {
 
 export async function olvidePassword(req, res) {
   const resultado = await contactoService.olvidePassword(req.body.email);
-
-  return res.status(204).send();
+  if (resultado) {
+    return res.status(204).send();
+  } else {
+    return res.status(404).json({ message: "Usuario no registrado" });
+  }
 }
 export async function resetPassword(req, res) {
   const tokenRecibido = req.query.token;
-  const { nuevoPass } = req.body;
-  const tokenDirecto =
-    "U2FsdGVkX18XwGGXY9C+7Alqzn0wmASXydeyVY5acm4AuxZEV5HQuqnog+2r/PWVye09r5EmT7Y8JzSZtc4jOD1klTg3QG+Tp12HER+YDHE=";
   const resultado = await contactoService.resetPassword(
-    tokenDirecto,
-    nuevoPass
+    tokenRecibido,
+    req.body
   );
-  console.log("TOKEN:", tokenRecibido.trim());
-  console.log("PASS:", nuevoPass);
-  return res.status(204).json({ mensaje: "token recibido" });
+  if (resultado) {
+    return res.status(204).send();
+  } else {
+    return res.status(404).json({ message: "Usuario no registrado" });
+  }
 }
 
 export async function verUsuario(req, res) {

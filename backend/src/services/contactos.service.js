@@ -18,9 +18,10 @@ export class contactoService {
     return contactos;
   }
   static async olvidePassword(email) {
-    console.log(email);
+    var encontrado = false;
     const usuarioEncontrado = await Contacto.findOne({ email });
     if (usuarioEncontrado) {
+      encontrado = true;
       const token = cryptojs.AES.encrypt(
         JSON.stringify({
           email: usuarioEncontrado.email,
@@ -28,7 +29,7 @@ export class contactoService {
         }),
         process.env.SECRET_CRYPT_PASSWORD
       ).toString();
-      // console.log(token);
+
       // correo
       const respuesta = await sgMail.send({
         from: "kat.valcarcel@live.com",
@@ -42,22 +43,26 @@ export class contactoService {
       });
       console.log(respuesta);
     }
-    console.log("USUARIO ENCONTRADO: ", usuarioEncontrado);
+    return encontrado;
+    // console.log("USUARIO ENCONTRADO: ", usuarioEncontrado);
   }
 
   static async resetPassword(hash, password) {
     const tokenDecodificada = JSON.parse(
-      cryptojs.AES.decrypt(hash, process.env.SECRET_CRYPT_PASSWORD).toString(
-        cryptojs.enc.Utf8
-      )
+      cryptojs.AES.decrypt(
+        hash.replace(/ /g, "+"),
+        process.env.SECRET_CRYPT_PASSWORD
+      ).toString(cryptojs.enc.Utf8)
     );
 
-    console.log("TOKEN DECODIFICADO:", tokenDecodificada);
-
-    // verificar si existe ese usuario (tokenDecodificada.correo) y si existe entonces cambiar la contraseña con el nuevo password, hashear la contraseña
-
-    // implementar el controlador y que la ruta sea /reset-password Method POST
+    const { email } = tokenDecodificada;
+    const usuarioEncontrado = await Contacto.findOne({ email });
+    if (usuarioEncontrado) {
+      this.actualizar(password, usuarioEncontrado._id);
+    }
+    return usuarioEncontrado;
   }
+
   static async ver(id) {
     const usuario = await Contacto.findById(id);
     //obtener mascotas
@@ -69,5 +74,15 @@ export class contactoService {
       })
     );
     return { ...usuario._doc, mascotas };
+  }
+  static async actualizar(data, id) {
+    const usuarioActualizado = await Contacto.findOneAndUpdate(
+      { _id: id },
+      data,
+      {
+        new: true,
+      }
+    );
+    return usuarioActualizado;
   }
 }
