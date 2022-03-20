@@ -12,9 +12,9 @@ export function mascotaDto({
   contacto,
   // estado,
 }) {
-  if (validator.isEmpty(nombre)) {
-    throw Error("El nombre no puede estar vacío");
-  }
+  // if (validator.isEmpty(nombre)) {
+  //   throw Error("El nombre no puede estar vacío");
+  // }
   if (especie !== "PERRO" && especie !== "GATO" && especie !== "OTROS") {
     throw Error('La especie debe ser "PERRO", "GATO", "OTROS"');
   }
