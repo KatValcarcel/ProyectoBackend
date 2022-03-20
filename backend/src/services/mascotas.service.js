@@ -2,7 +2,7 @@ import { Mascota } from "../models/mascotas.model.js";
 import { Contacto } from "../models/contactos.model.js";
 import { publicacionService } from "../services/publicacion.service.js";
 import { Raza } from "../models/razas.model.js";
-import fs from "fs";
+// import fs from "fs";
 import { Publicacion } from "../models/publicaciones.model.js";
 import { ArchivosService } from "./archivos.service.js";
 export class MascotaService {
@@ -48,15 +48,23 @@ export class MascotaService {
   static async eliminar(id) {
     try {
       //eliminar imagen vinculada
+      //LOCAL
+      // const mascotaEncontrada = await Mascota.findById(id);
+      // if (mascotaEncontrada.mascotaImagen) {
+      //   await fs.promises.unlink(mascotaEncontrada.mascotaImagen);
+      // }
+      //S3
       const mascotaEncontrada = await Mascota.findById(id);
       if (mascotaEncontrada.mascotaImagen) {
-        await fs.promises.unlink(mascotaEncontrada.mascotaImagen);
+        ArchivosService.eliminarArchivo(mascotaEncontrada.mascotaImagen);
       }
+
       //eliminar publicaciones vinculadas
       const { publicaciones } = mascotaEncontrada;
       publicaciones.forEach(async (_id) => {
         await publicacionService.eliminar(_id);
       });
+
       //elimina finalmente la mascota
       const mascotaEliminada = await Mascota.findByIdAndDelete(id);
 
