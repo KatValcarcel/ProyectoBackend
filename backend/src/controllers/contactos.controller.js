@@ -14,12 +14,6 @@ export async function registrarContacto(req, res) {
   }
 }
 
-//No necesito la lista de usuarios, si se usa hay que poner la ruta .get(devolverContactos)
-
-// export async function devolverContactos(req, res) {
-//   const resultado = await ContactoService.devolver();
-//   return res.json(resultado);
-// }
 export async function olvidePassword(req, res) {
   const resultado = await contactoService.olvidePassword(req.body.email);
 
@@ -37,4 +31,13 @@ export async function resetPassword(req, res) {
   console.log("TOKEN:", tokenRecibido.trim());
   console.log("PASS:", nuevoPass);
   return res.status(204).json({ mensaje: "token recibido" });
+}
+
+export async function verUsuario(req, res) {
+  try {
+    const usuario = await contactoService.ver(req.params.id);
+    res.status(200).json({ usuario });
+  } catch (error) {
+    res.status(404).json({ message: "No existe el contacto" });
+  }
 }

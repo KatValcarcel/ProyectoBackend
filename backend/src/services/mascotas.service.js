@@ -1,7 +1,9 @@
 import { Mascota } from "../models/mascotas.model.js";
 import { Contacto } from "../models/contactos.model.js";
+import { publicacionService } from "../services/publicacion.service.js";
 import { Raza } from "../models/razas.model.js";
 import fs from "fs";
+import { Publicacion } from "../models/publicaciones.model.js";
 export class MascotaService {
   // TODO: Se debe jalar del usuario logueado para establecer la relación
   static async crear(data) {
@@ -22,7 +24,7 @@ export class MascotaService {
     // }
 
     //crear
-    //TODO: contactoID
+    //TODO: contactoID FK
     const nuevaMascota = await Mascota.create(data);
 
     //establecer relación en contacto
@@ -43,10 +45,17 @@ export class MascotaService {
   }
   static async eliminar(id) {
     try {
+      //eliminar imagen vinculada
       const mascotaEncontrada = await Mascota.findById(id);
       if (mascotaEncontrada.mascotaImagen) {
         await fs.promises.unlink(mascotaEncontrada.mascotaImagen);
       }
+      //eliminar publicaciones vinculadas
+      const { publicaciones } = mascotaEncontrada;
+      publicaciones.forEach(async (_id) => {
+        await publicacionService.eliminar(_id);
+      });
+      //elimina finalmente la mascota
       const mascotaEliminada = await Mascota.findByIdAndDelete(id);
 
       return mascotaEliminada;
@@ -56,6 +65,25 @@ export class MascotaService {
   }
   static async get(id) {
     const mascota = await Mascota.findById(id);
-    return mascota;
+    //obtener publicaciones
+    const publicaciones = await Promise.all(
+      mascota.publicaciones.map(async (_id) => {
+        const publicacion = await Publicacion.findById(_id);
+
+        return publicacion;
+      })
+    );
+    return { ...mascota._doc, publicaciones };
+  }
+  static async actualizar(data, id) {
+    const mascotaActualizada = await Publicacion.findOneAndUpdate(
+      { _id: id },
+      data,
+      {
+        new: true,
+      }
+    );
+
+    return mascotaActualizada;
   }
 }

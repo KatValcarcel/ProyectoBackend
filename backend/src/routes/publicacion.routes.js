@@ -5,6 +5,7 @@ import {
   devolverPublicacionesPerdidos,
   eliminarPublicacion,
   obtenerPublicaciones,
+  actualizarPublicacion,
 } from "../controllers/publicaciones.controller.js";
 
 export const publicacionRouter = Router();
@@ -16,4 +17,7 @@ publicacionRouter.get(
   devolverPublicacionesEncontrados
 );
 publicacionRouter.get("/publicaciones", obtenerPublicaciones);
-publicacionRouter.route("/publicacion/:id").delete(eliminarPublicacion);
+publicacionRouter
+  .route("/publicacion/:id")
+  .delete(eliminarPublicacion)
+  .put(actualizarPublicacion);

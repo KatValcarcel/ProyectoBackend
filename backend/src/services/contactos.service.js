@@ -2,6 +2,7 @@ import { Contacto } from "../models/contactos.model.js";
 import { hashSync } from "bcrypt";
 import cryptojs from "crypto-js";
 import sgMail from "@sendgrid/mail";
+import { Mascota } from "../models/mascotas.model.js";
 export class contactoService {
   static async registrar(data) {
     try {
@@ -56,5 +57,17 @@ export class contactoService {
     // verificar si existe ese usuario (tokenDecodificada.correo) y si existe entonces cambiar la contraseña con el nuevo password, hashear la contraseña
 
     // implementar el controlador y que la ruta sea /reset-password Method POST
+  }
+  static async ver(id) {
+    const usuario = await Contacto.findById(id);
+    //obtener mascotas
+    const mascotas = await Promise.all(
+      usuario.mascotas.map(async (_id) => {
+        const mascota = await Mascota.findById(_id);
+
+        return mascota;
+      })
+    );
+    return { ...usuario._doc, mascotas };
   }
 }

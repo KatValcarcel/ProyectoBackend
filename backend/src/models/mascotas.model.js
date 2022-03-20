@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const mascotaSchema = new mongoose.Schema({
   nombre: {
     type: mongoose.Schema.Types.String,
-    required: true,
+    // required: true,
     alias: "nombreMascota",
   },
   especie: {
@@ -26,6 +26,7 @@ const mascotaSchema = new mongoose.Schema({
     required: true,
   },
   edad_aprox: mongoose.Schema.Types.String,
+  //deberia ser array de imagenes
   mascotaImagen: {
     type: mongoose.Schema.Types.String,
     alias: "imagen",

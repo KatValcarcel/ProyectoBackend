@@ -33,7 +33,8 @@ export class publicacionService {
     );
     return nuevaPublicacion;
   }
-  //   TODO ultimas 10
+  //   TODO: ultimas 10
+  // Devolver publicaciones según su tipo
   static async devolverMascotasEncontradas() {
     const razas = await Publicacion.find({ estado: "ENCONTRADO" }).sort({
       updatedAt: "desc",
@@ -46,6 +47,7 @@ export class publicacionService {
     });
     return razas;
   }
+  //listar todas
   static async listar() {
     const publicaciones = await Publicacion.find().sort({ updatedAt: "desc" });
     return publicaciones;
@@ -84,5 +86,21 @@ export class publicacionService {
     } catch (error) {
       console.error(error);
     }
+  }
+
+  static async actualizar(data, id) {
+    const publicacionActualizada = await Publicacion.findOneAndUpdate(
+      { _id: id },
+      data,
+      {
+        new: true,
+      }
+    );
+
+    return publicacionActualizada;
+  }
+  static async get(id) {
+    const publicacion = await Publicacion.findById(id);
+    return publicacion;
   }
 }

@@ -19,8 +19,12 @@ export async function devolverMascotas(req, res) {
   return res.json(resultado);
 }
 export async function getMascota(req, res) {
-  const mascota = await MascotaService.get(req.params.id);
-  res.status(200).json({ mascota });
+  try {
+    const mascota = await MascotaService.get(req.params.id);
+    res.status(200).json({ mascota });
+  } catch (error) {
+    res.status(404).json({ message: "No existe la mascota" });
+  }
 }
 export async function eliminarMascota(req, res) {
   const resultado = await MascotaService.eliminar(req.params.id);
@@ -31,5 +35,14 @@ export async function eliminarMascota(req, res) {
     return res.status(400).json({
       message: "Error al eliminar la mascota",
     });
+  }
+}
+export async function putMascota(req, res) {
+  try {
+    const { id } = req.params;
+    const resultado = await MascotaService.actualizar(req.body, id);
+    return res.status(201).json(resultado);
+  } catch (error) {
+    res.status(404).json({ message: "No existe la mascota" });
   }
 }
