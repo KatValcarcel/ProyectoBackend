@@ -1,4 +1,5 @@
 import express, { json } from "express";
+import cors from "cors";
 import mongoose from "mongoose";
 import { contactoRouter } from "./routes/contacto.routes.js";
 import { imagenRouter } from "./routes/imagen.routes.js";
@@ -16,6 +17,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const app = express();
 app.use(json());
+app.use(cors());
 
 const PORT = process.env.PORT ?? 3000;
 

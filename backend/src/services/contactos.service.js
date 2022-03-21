@@ -1,16 +1,34 @@
-import { Contacto } from "../models/contactos.model.js";
-import { hashSync } from "bcrypt";
+// import { hashSync } from "bcrypt";
 import cryptojs from "crypto-js";
 import sgMail from "@sendgrid/mail";
+import jwt from "jsonwebtoken";
+import { Contacto } from "../models/contactos.model.js";
 import { Mascota } from "../models/mascotas.model.js";
+
 export class contactoService {
   static async registrar(data) {
     try {
-      const password = hashSync(data.password, 10);
-      const NuevoContacto = await Contacto.create({ ...data, password });
-      return NuevoContacto;
+      // const password = hashSync(data.password, 10);
+      // const user = await Contacto.create({ ...data, password });
+      const user = await Contacto.create(data);
+      //JWT
+      const token = jwt.sign(
+        {
+          id: user._id,
+          nombre: user.nombre,
+          apellido: user.apellido,
+        },
+        process.env.SECRET_JWT,
+        {
+          expiresIn: "5h",
+        }
+      );
+
+      return {
+        token,
+      };
     } catch (error) {
-      console.log(error);
+      return { error: error.message };
     }
   }
   static async devolver() {

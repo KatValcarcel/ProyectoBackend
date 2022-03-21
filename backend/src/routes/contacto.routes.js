@@ -8,7 +8,7 @@ import {
 
 export const contactoRouter = Router();
 
-contactoRouter.route("/contacto").post(registrarContacto);
+contactoRouter.post("/registrar", registrarContacto);
 contactoRouter.post("/forgot-password", olvidePassword);
 contactoRouter.post("/reset-password", resetPassword);
 contactoRouter.route("/contacto/:id").get(verUsuario);
