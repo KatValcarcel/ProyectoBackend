@@ -76,13 +76,15 @@ export class MascotaService {
   static async get(id) {
     const mascota = await Mascota.findById(id);
     //obtener publicaciones
-    const publicaciones = await Promise.all(
-      mascota.publicaciones.map(async (_id) => {
-        const publicacion = await Publicacion.findById(_id);
+    if (mascota.publicaciones != null) {
+      const publicaciones = await Promise.all(
+        mascota.publicaciones.map(async (_id) => {
+          const publicacion = await Publicacion.findById(_id);
 
-        return publicacion;
-      })
-    );
+          return publicacion;
+        })
+      );
+    }
     //imagen
     const mascotaConImagen = {
       ...mascota._doc,

@@ -1,7 +1,7 @@
 import { Router } from "express";
+import { validarUsuario } from "../../utils/validador.js";
 import { crearArchivo } from "../controllers/archivo.controller.js";
-// import { validarUsuario } from "../utils/validador.js";
 
 export const archivoRouter = Router();
 
-archivoRouter.route("/archivo").post(crearArchivo);
+archivoRouter.route("/archivo").all(validarUsuario).post(crearArchivo);

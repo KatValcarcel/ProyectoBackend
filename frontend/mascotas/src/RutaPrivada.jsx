@@ -1,19 +1,22 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import { Navigate } from 'react-router-dom'
 import decode from 'jwt-decode'
+import { useState } from 'react'
 
 export const RutaPrivada = ({ children }) => {
-    const [token, setToken] = useState()
+    const [token, setToken] = useState(localStorage.getItem('token'))
 
-    useEffect = (() => {
+    useEffect(() => {
         if (localStorage.getItem('token')) {
             try {
-                const result = decode(token)
+                const result = decode(localStorage.getItem('token'))
+                console.log(result);
                 setToken(localStorage.getItem('token'))
-                console.log(result)
+                // usar useContext para setear un contexto del usuario dentro de la aplicacion con el resultado de la decodificacion
             } catch (error) {
-                alert('Información de usuario incorrecta')
+                alert('No se puede registrar a este usuario')
                 localStorage.removeItem('token')
+                setToken(null)
             }
         }
     }, [])

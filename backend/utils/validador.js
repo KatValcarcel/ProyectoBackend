@@ -6,7 +6,7 @@ export function verificarToken(token) {
     const payload = jwt.verify(token, process.env.JWT_SECRET);
     return payload;
   } catch (error) {
-    return error;
+    return error.message;
   }
 }
 
@@ -19,22 +19,20 @@ export async function validarUsuario(req, res, next) {
     });
   }
 
+  // BEARER
   const token = req.headers.authorization.split(" ")[1];
-
   const resultado = verificarToken(token);
+  if (typeof resultado === "object") {
+    const usuario = await Contacto.findById(resultado.id).select("correo _id");
+    req.user = usuario;
+    // const { id } = resultado;
+    // req.user = id;
 
-  if (resultado instanceof jwt.JsonWebTokenError) {
-    return res.status(403).json({
-      message: "La token es inválida, intente nuevamente",
-      razon: resultado.message,
+    next();
+  } else {
+    return res.status(401).json({
+      message: "Error al hacer la petición",
+      content: resultado,
     });
   }
-
-  console.log(resultado);
-
-  const usuario = await Contacto.findById(resultado.id).select("correo _id");
-
-  req.user = usuario;
-
-  next();
 }

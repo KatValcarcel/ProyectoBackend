@@ -23,7 +23,9 @@ export async function getMascota(req, res) {
     const mascota = await MascotaService.get(req.params.id);
     res.status(200).json({ mascota });
   } catch (error) {
-    res.status(404).json({ message: "No existe la mascota" });
+    res
+      .status(404)
+      .json({ message: "No existe la mascota", error: error.message });
   }
 }
 export async function eliminarMascota(req, res) {

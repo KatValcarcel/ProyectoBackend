@@ -6,11 +6,16 @@ import {
   eliminarPublicacion,
   obtenerPublicaciones,
   actualizarPublicacion,
+  verPublicacion,
 } from "../controllers/publicaciones.controller.js";
+import { validarUsuario } from "../../utils/validador.js";
 
 export const publicacionRouter = Router();
 
-publicacionRouter.route("/publicacion").post(crearPublicacion);
+publicacionRouter
+  .route("/publicacion")
+  .all(validarUsuario)
+  .post(crearPublicacion);
 publicacionRouter.get("/publicaciones/perdidos", devolverPublicacionesPerdidos);
 publicacionRouter.get(
   "/publicaciones/encontrados",
@@ -21,3 +26,4 @@ publicacionRouter
   .route("/publicacion/:id")
   .delete(eliminarPublicacion)
   .put(actualizarPublicacion);
+publicacionRouter.route("/publicacion/:id").get(verPublicacion);

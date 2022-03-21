@@ -52,7 +52,7 @@ export const Register = () => {
                 </Form.Group>
                 <Form.Group className="mb-3">
                     <Form.Label htmlFor='password'>Password*</Form.Label>
-                    <Form.Control id='password' type="password" placeholder="Password" onChange={editarValor} />
+                    <Form.Control id='password' type="password" placeholder="*********" onChange={editarValor} />
                 </Form.Group>
                 <Button variant="primary" type="submit">
                     Registrar

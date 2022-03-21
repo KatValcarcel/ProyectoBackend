@@ -101,6 +101,11 @@ export class publicacionService {
   }
   static async get(id) {
     const publicacion = await Publicacion.findById(id);
-    return publicacion;
+    const mascotaEncontrada = await Mascota.findById(publicacion.mascotaId);
+    const publicacionConMascota = {
+      ...publicacion._doc,
+      mascotaId: mascotaEncontrada,
+    };
+    return publicacionConMascota;
   }
 }
