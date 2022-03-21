@@ -7,5 +7,8 @@ const request = axios.create({
   },
 });
 export const getServerInfo = () => {
-  return request.post("/status");
+  return request.get("/status");
+};
+export const createUser = (data) => {
+  return request.post("/registrar", data);
 };

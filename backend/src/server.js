@@ -21,13 +21,22 @@ app.use(cors());
 
 const PORT = process.env.PORT ?? 3000;
 
-app.use(contactoRouter);
-app.use(mascotaRouter);
-app.use(imagenRouter);
-app.use(razaRouter);
-app.use(publicacionRouter);
-app.use(archivoRouter);
+app.use(
+  "/api",
+  contactoRouter,
+  mascotaRouter,
+  imagenRouter,
+  razaRouter,
+  publicacionRouter,
+  archivoRouter
+);
 app.use("/media", express.static(__dirname + "/images"));
+
+app.get("/api/status", (req, res) => {
+  return res.json({
+    date: new Date(),
+  });
+});
 
 app.listen(PORT, async () => {
   console.log(`Server runnning on port ${PORT}`);

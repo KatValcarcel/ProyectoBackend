@@ -14,10 +14,7 @@ const contactoSchema = new mongoose.Schema(
     usuario: {
       type: mongoose.Schema.Types.String,
       required: true,
-      // nested: {
-      //   firstName: { type: String },
-      //   lastName: { type: String },
-      // },
+      unique: true,
     },
     email: {
       type: mongoose.Schema.Types.String,

@@ -1,0 +1,1354 @@
+[
+  {
+    "_id": "6235478e22ef53cb8134b9b8",
+    "nombreRaza": "Mestizo - Desconozco La Raza - Mestizo - Desconozco La Raza"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9b9",
+    "nombreRaza": "Affenpinscher - Affenpinscher"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9ba",
+    "nombreRaza": "Aïdi  - Aïdi"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9bb",
+    "nombreRaza": "Airedale Terrier - Airedale Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9bc",
+    "nombreRaza": "Akita - Akita"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9bd",
+    "nombreRaza": "Akita Americano - American Akita "
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9be",
+    "nombreRaza": "American Bully - American Bully"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9bf",
+    "nombreRaza": "American Cocker Spaniel  - American Cocker Spaniel "
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9c0",
+    "nombreRaza": "American Foxhound - American Foxhound"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9c1",
+    "nombreRaza": "American Staffordshire Terrier - American Staffordshire Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9c2",
+    "nombreRaza": "Antiguo Perro De Muestra Danés - Gammel Dansk Hønsehund "
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9c3",
+    "nombreRaza": "Antiguo Perro De Pastor Inglés - Old English Sheepdog"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9c4",
+    "nombreRaza": "Australian Kelpie - Australian Kelpie"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9c5",
+    "nombreRaza": "Australian Terrier - Australian Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9c6",
+    "nombreRaza": "Azawakh - Azawakh"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9c7",
+    "nombreRaza": "Basenji - Basenji"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9c8",
+    "nombreRaza": "Basset Artesiano De Normandía - Basset Artesien Normand"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9c9",
+    "nombreRaza": "Basset Azul De Gascuña - Basset Bleu De Gascogne"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9ca",
+    "nombreRaza": "Basset Hound - Basset Hound"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9cb",
+    "nombreRaza": "Basset Leonado De Bretaña - Basset Fauve De Bretagne"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9cc",
+    "nombreRaza": "Beagle - Beagle"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9cd",
+    "nombreRaza": "Beagle-harrier - Beagle Harrier "
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9ce",
+    "nombreRaza": "Bedlington Terrier - Bedlington Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9cf",
+    "nombreRaza": "Bichón Boloñés - Bolognese "
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9d0",
+    "nombreRaza": "Bichon De Pelo Rizado - Bichon A Poil Frise"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9d1",
+    "nombreRaza": "Bichon Habanero - Bichon Havanais"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9d2",
+    "nombreRaza": "Bichon Maltés - Maltese"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9d3",
+    "nombreRaza": "Billy - Billy"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9d4",
+    "nombreRaza": "Border Collie - Border Collie"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9d5",
+    "nombreRaza": "Border Terrier - Border Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9d6",
+    "nombreRaza": "Borzoi - Lebrel Ruso Para La Caza - Russkaya Psovaya Borzaya"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9d7",
+    "nombreRaza": "Boston Terrier - Boston Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9d8",
+    "nombreRaza": "Boxer - Deutscher Boxer"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9d9",
+    "nombreRaza": "Boyero Australiano - Australian Cattle Dog"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9da",
+    "nombreRaza": "Boyero De Entlebuch - Entlebucher Sennenhund"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9db",
+    "nombreRaza": "Boyero De Flandes - Bouvier Des Flandres/vlaamse Koehond"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9dc",
+    "nombreRaza": "Boyero De Las Ardenas - Bouvier Des Ardennes"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9dd",
+    "nombreRaza": "Boyero De Montana Bernes - Berner Sennenhund"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9de",
+    "nombreRaza": "Braco Alemán De Pelo Corto - Deutsch Kurzhaar"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9df",
+    "nombreRaza": "Braco De Auvernia - Braque D'auvergne "
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9e0",
+    "nombreRaza": "Braco Del Ariege - Braque De L'ariege"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9e1",
+    "nombreRaza": "Braco Del Borbonesado - Braque Du Bourbonnais"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9e2",
+    "nombreRaza": "Braco Eslovaco De Pelo Duro - Slovenský Hrubosrstý Stavac (ohar),"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9e3",
+    "nombreRaza": "Braco Francés - Tipo Gascuña - Braque Français - Type Gascogne "
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9e4",
+    "nombreRaza": "Braco Francés - Tipo Pirineos - Braque Français - Type Pyrenees ,"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9e5",
+    "nombreRaza": "Braco Húngaro De Pelo Corto - Rövidszörü Magyar Vizsla"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9e6",
+    "nombreRaza": "Braco Húngaro De Pelo Duro - Drötzörü Magyar Vizsla "
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9e7",
+    "nombreRaza": "Braco Italiano - Bracco Italiano "
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9e8",
+    "nombreRaza": "Braco Saint-germain - Braque Saint-germain "
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9e9",
+    "nombreRaza": "Briquet Grifon Vendeano - Briquet Griffon Vendeen"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9ea",
+    "nombreRaza": "Broholmer - Broholmer"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9eb",
+    "nombreRaza": "Buhund Noruego - Norsk Buhund"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9ec",
+    "nombreRaza": "Bull Terrier - Bull Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9ed",
+    "nombreRaza": "Bull Terrier Miniatura - Miniature Bull Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9ee",
+    "nombreRaza": "Bulldog - Bulldog"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9ef",
+    "nombreRaza": "Bulldog Francés - Bouledogue Français"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9f0",
+    "nombreRaza": "Bullmastiff - Bullmastiff"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9f1",
+    "nombreRaza": "Cairn Terrier - Cairn Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9f2",
+    "nombreRaza": "Canaan Dog - Canaan Dog"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9f3",
+    "nombreRaza": "Caniche - Caniche"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9f4",
+    "nombreRaza": "Cavalier King Charles Spaniel - Cavalier King Charles Spaniel"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9f5",
+    "nombreRaza": "Cazador De Alces Noruego Gris - Norsk Elghund Grå "
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9f6",
+    "nombreRaza": "Cazador De Alces Noruego Negro - Norsk Elghund Sort "
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9f7",
+    "nombreRaza": "Chesapeake Bay Retriever - Chesapeake Bay Retriever"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9f8",
+    "nombreRaza": "Chien De Saint Hubert - Chien De Saint Hubert"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9f9",
+    "nombreRaza": "Chihuahueño - Chihuahueño"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9fa",
+    "nombreRaza": "Chow Chow - Chow Chow"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9fb",
+    "nombreRaza": "Cirneco Del Etna - Cirneco Dell'etna"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9fc",
+    "nombreRaza": "Clumber Spaniel - Clumber Spaniel"
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9fd",
+    "nombreRaza": "Cobrador De Pelo Liso - Flat Coated Retriever "
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9fe",
+    "nombreRaza": "Cobrador De Pelo Rizado - Curly Coated Retriever "
+  },
+  {
+    "_id": "6235478e22ef53cb8134b9ff",
+    "nombreRaza": "Cocker Spaniel Inglés - English Cocker Spaniel"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba00",
+    "nombreRaza": "Collie Barbudo - Bearded Collie"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba01",
+    "nombreRaza": "Collie De Pelo Corto - Collie Smooth"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba02",
+    "nombreRaza": "Collie De Pelo Largo - Collie Rough"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba03",
+    "nombreRaza": "Coton De Tulear - Coton De Tulear"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba04",
+    "nombreRaza": "Dachsbracke De Los Alpes - Alpenländische Dachsbracke "
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba05",
+    "nombreRaza": "Dálmata - Dalmatinski Pas"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba06",
+    "nombreRaza": "Dandie Dinmont Terrier - Dandie Dinmont Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba07",
+    "nombreRaza": "Dóberman - Dobermann"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba08",
+    "nombreRaza": "Dogo Argentino - Dogo Argentino"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba09",
+    "nombreRaza": "Dogo Canario - Dogo Canario"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba0a",
+    "nombreRaza": "Dogo De Burdeos - Dogue De Bordeaux"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba0b",
+    "nombreRaza": "Dogo Del Tibet - Do-khyi"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba0c",
+    "nombreRaza": "Doguillo - Pug"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba0d",
+    "nombreRaza": "Espinone - Spinone Italiano"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba0e",
+    "nombreRaza": "Eurásico - Eurasier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba0f",
+    "nombreRaza": "Field Spaniel - Field Spaniel"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba10",
+    "nombreRaza": "Fila Brasileño - Fila Brasileiro"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba11",
+    "nombreRaza": "Fila De San Miguel - Cão Fila De São Miguel"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba12",
+    "nombreRaza": "Fox Terrier De Pelo Alambre - Fox Terrier Wire"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba13",
+    "nombreRaza": "Fox Terrier De Pelo Liso - Fox Terrier Smooth"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba14",
+    "nombreRaza": "Foxhound Inglés - English Foxhound"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba15",
+    "nombreRaza": "Galgo Español - Galgo Español"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba16",
+    "nombreRaza": "Gascon Saintongeois - Gascon Saintongeois"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba17",
+    "nombreRaza": "Golden Retriever / Cobrador Dorado - Golden Retriever"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba18",
+    "nombreRaza": "Gran Basset Grifón Vendeano - Grand Basset Griffon Vendeen"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba19",
+    "nombreRaza": "Gran Boyero Suizo - Grosser Schweizer Sennenhund"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba1a",
+    "nombreRaza": "Gran Danés - Deutsche Dogge"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba1b",
+    "nombreRaza": "Gran Grifon Vendeano - Grand Griffon Vendeen"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba1c",
+    "nombreRaza": "Gran Munsterlander - Grosser Münsterländer Vorstehhund"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba1d",
+    "nombreRaza": "Gran Sabueso Anglo-francés Blanco Y Naranja - Grand Anglo-français Blanc Et Orange "
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba1e",
+    "nombreRaza": "Gran Sabueso Anglo-francés Blanco Y Negro - Grand Anglo-français Blanc Et Noir "
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba1f",
+    "nombreRaza": "Gran Sabueso Anglo-francés Tricolor - Grand Anglo-français Tricolore "
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba20",
+    "nombreRaza": "Gran Sabueso Azul De Gascuña - Grand Bleu De Gascogne"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba21",
+    "nombreRaza": "Greyhound - Greyhound"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba22",
+    "nombreRaza": "Griffon Belge - Griffon Belge"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba23",
+    "nombreRaza": "Griffon Bruxellois - Griffon Bruxellois"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba24",
+    "nombreRaza": "Grifón Azul De Gascuña - Griffon Bleu De Gascogne "
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba25",
+    "nombreRaza": "Grifón De Muestra Bohemio De Pelo Duro - Ceský Fousek"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba26",
+    "nombreRaza": "Grifón De Muestra De Pelo Duro) - Griffon A Poil Dur Korthals"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba27",
+    "nombreRaza": "Grifón Del Nivernais - Griffon Nivernais"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba28",
+    "nombreRaza": "Grifón Leonado De Bretaña - Griffon Fauve De Bretagne "
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba29",
+    "nombreRaza": "Harrier - Harrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba2a",
+    "nombreRaza": "Hokkaido - Hokkaido"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba2b",
+    "nombreRaza": "Hovawart - Hovawart"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba2c",
+    "nombreRaza": "Husky Siberiano - Siberian Husky"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba2d",
+    "nombreRaza": "Kai - Kai"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba2e",
+    "nombreRaza": "Kerry Blue Terrier - Kerry Blue Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba2f",
+    "nombreRaza": "King Charles Spaniel - King Charles Spaniel"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba30",
+    "nombreRaza": "Kishu - Kishu"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba31",
+    "nombreRaza": "Komondor - Komondor"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba32",
+    "nombreRaza": "Korea Jindo Dog - Korea Jindo Dog"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba33",
+    "nombreRaza": "Kromfohrländer - Kromfohrländer"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba34",
+    "nombreRaza": "Kuvasz - Kuvasz"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba35",
+    "nombreRaza": "Labrador Retriever - Labrador Retriever"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba36",
+    "nombreRaza": "Laika De Siberia Occidental - Zapadno-sibirskaïa Laïka"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba37",
+    "nombreRaza": "Laika De Siberia Oriental - Vostotchno-sibirskaïa Laïka"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba38",
+    "nombreRaza": "Laika Ruso-europeo - Russko-evropeïskaïa Laïka"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba39",
+    "nombreRaza": "Lakeland Terrier - Lakeland Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba3a",
+    "nombreRaza": "Landseer - Landseer "
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba3b",
+    "nombreRaza": "Lebrel Afgano - Afghan Hound"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba3c",
+    "nombreRaza": "Lebrel Escocés - Deerhound"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba3d",
+    "nombreRaza": "Lebrel Húngaro - Magyar Agar"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba3e",
+    "nombreRaza": "Lebrel Irlandés - Irish Wolfhound "
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba3f",
+    "nombreRaza": "Lebrel Polaco - Chart Polski"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba40",
+    "nombreRaza": "Leonberger - Leonberger"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba41",
+    "nombreRaza": "Lhasa Apso - Lhasa Apso"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba42",
+    "nombreRaza": "Lundehund Noruego - Norsk Lundehund "
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba43",
+    "nombreRaza": "Malamute De Alaska - Alaskan Malamute"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba44",
+    "nombreRaza": "Manchester Terrier - Manchester Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba45",
+    "nombreRaza": "Mastiff - Mastiff"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba46",
+    "nombreRaza": "Mastín Del Pirineo - Mastín Del Pirineo"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba47",
+    "nombreRaza": "Mastín Español - Mastín Español"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba48",
+    "nombreRaza": "Mastin Napolitano - Mastino Napoletano "
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba49",
+    "nombreRaza": "Mudi - Mudi"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba4a",
+    "nombreRaza": "Nederlandse Kooikerhondje - Nederlandse Kooikerhondje"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba4b",
+    "nombreRaza": "Norfolk Terrier - Norfolk Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba4c",
+    "nombreRaza": "Norwich Terrier - Norwich Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba4d",
+    "nombreRaza": "Parson Russell Terrier - Parson Russell Terrier "
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba4e",
+    "nombreRaza": "Pastor Alemán - Deutscher Schäferhund"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba4f",
+    "nombreRaza": "Pastor Belga Malinois  - Belgian Shepherd Malinois"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba50",
+    "nombreRaza": "Pastor Bergamasco - Cane Da Pastore Bergamasco"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba51",
+    "nombreRaza": "Pastor Blanco Suizo - Berger Blanc Suisse"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba52",
+    "nombreRaza": "Pastor Catalán - Gos D'atura Catalá"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba53",
+    "nombreRaza": "Pastor De Beauce - Berger De Beauce"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba54",
+    "nombreRaza": "Pastor De Brie - Berger De Brie"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba55",
+    "nombreRaza": "Pastor De Karst - Kraski Ovcar"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba56",
+    "nombreRaza": "Pastor De Los Pirineos De Cara Rasa - Chien De Berger Des Pyrenees A Face Rase"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba57",
+    "nombreRaza": "Pastor De Picardía - Berger Picard"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba58",
+    "nombreRaza": "Pastor Finlandés De Laponia - Lapinporokoira"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba59",
+    "nombreRaza": "Pastor Holandés - Hollandse Herdershond"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba5a",
+    "nombreRaza": "Pastor Polaco De Podhale - Polski Owczarek Podhalanski"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba5b",
+    "nombreRaza": "Pekines - Pekingese"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba5c",
+    "nombreRaza": "Pequeño Basset Grifón Vendeano - Petit Basset Griffon Vendeen "
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba5d",
+    "nombreRaza": "Pequeño Lebrel Italiano - Piccolo Levriero Italiano"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba5e",
+    "nombreRaza": "Pequeño Münsterländer - Kleiner Münsterländer"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba5f",
+    "nombreRaza": "Pequeño Perro León - Petit Chien Lion"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba60",
+    "nombreRaza": "Pequeño Sabueso Azul De Gascuña - Petit Bleu De Gascogne"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba61",
+    "nombreRaza": "Perdiguero Alemán - Deutscher Wachtelhund "
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba62",
+    "nombreRaza": "Perdiguero De Burgos - Perdiguero De Burgos"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba63",
+    "nombreRaza": "Perdiguero De Drente - Drentsche Patrijshond"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba64",
+    "nombreRaza": "Perdiguero Frisón - Stabyhoun"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba65",
+    "nombreRaza": "Perdiguero Portugués - Perdigueiro Português"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba66",
+    "nombreRaza": "Perro Boyero De Appenzell - Appenzeller Sennenhund"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba67",
+    "nombreRaza": "Perro Cazador De Alces Sueco - Jämthund"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba68",
+    "nombreRaza": "Perro Cobrador De Nueva Escocia - Nova Scotia Duck Tolling Retriever"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba69",
+    "nombreRaza": "Perro Corso Italiano - Cane Corso Italiano"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba6a",
+    "nombreRaza": "Perro Crestado Chino - Chinese Crested Dog "
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba6b",
+    "nombreRaza": "Perro Crestado Rodesiano - Rhodesian Ridgeback"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba6c",
+    "nombreRaza": "Perro De Agua Americano - American Water Spaniel"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba6d",
+    "nombreRaza": "Perro De Agua De Romagna - Lagotto Romagnolo "
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba6e",
+    "nombreRaza": "Perro De Agua Español - Perro De Agua Español"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba6f",
+    "nombreRaza": "Perro De Agua Francés - Barbet "
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba70",
+    "nombreRaza": "Perro De Agua Frison - Wetterhoun"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba71",
+    "nombreRaza": "Perro De Agua Irlandés - Irish Water Spaniel"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba72",
+    "nombreRaza": "Perro De Agua Portugués - Cão De Agua Português"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba73",
+    "nombreRaza": "Perro De Castro Laboreiro - Cão De Castro Laboreiro"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba74",
+    "nombreRaza": "Perro De Groenlandia - Grønlandshund"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba75",
+    "nombreRaza": "Perro De La Sierra De La Estrela - Cão Da Serra Da Estrela"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba76",
+    "nombreRaza": "Perro De Montaña De Los Pirineos - Chien De Montagne Des Pyrenees"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba77",
+    "nombreRaza": "Perro De Muestra Alemán De Pelo Cerdoso - Deutsch Stichelhaar"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba78",
+    "nombreRaza": "Perro De Muestra Alemán De Pelo Duro - Deutsch Drahthaar"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba79",
+    "nombreRaza": "Perro De Muestra Alemán De Pelo Largo - Deutsch Langhaar "
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba7a",
+    "nombreRaza": "Perro De Nutria - Otterhound"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba7b",
+    "nombreRaza": "Perro De Osos De Carelia - Karjalankarhukoira"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba7c",
+    "nombreRaza": "Perro De Pastor Belga - Chien De Berger Belge"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba7d",
+    "nombreRaza": "Perro De Pastor De Anatolia - Coban Köpegi"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba7e",
+    "nombreRaza": "Perro De Pastor De La Maremma Y De Los Abruzos - Cane Da Pastore Maremmano-abruzzese"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba7f",
+    "nombreRaza": "Perro De Pastor De Rusia Meridional - Ioujnorousskaia Ovtcharka"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba80",
+    "nombreRaza": "Perro De Pastor Islandés - Islenskur Fjárhundur"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba81",
+    "nombreRaza": "Perro De Pastor Mallorquĺn - Ca De Bestiar"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba82",
+    "nombreRaza": "Perro De Pastor Polaco De Las Llanuras -  Polski Owczarek Nizinny"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba83",
+    "nombreRaza": "Perro De Pastor Portugués - Cão Da Serra De Aires"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba84",
+    "nombreRaza": "Perro De Pastor Yugoslavo De Charplanina - Jugoslovenski Ovcarski Pas-sarplaninac "
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba85",
+    "nombreRaza": "Perro Del Faraón - Pharaoh Hound "
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba86",
+    "nombreRaza": "Perro Dogo Mallorquín - Ca De Bou"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba87",
+    "nombreRaza": "Perro Finlandés De Laponia - Suomenlapinkoira"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba88",
+    "nombreRaza": "Perro Lobo Checoslovaco - Ceskoslovenský Vlciak"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba89",
+    "nombreRaza": "Perro Lobo De Saarloos - Saarlooswolfhond"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba8a",
+    "nombreRaza": "Perro Negro Y Fuego Para La Caza Del Mapache - Black And Tan Coonhound"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba8b",
+    "nombreRaza": "Perro Pastor Australiano - Australian Shepherd"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba8c",
+    "nombreRaza": "Perro Pastor Croato - Hrvatski Ovcar"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba8d",
+    "nombreRaza": "Perro Pastor De Asia Central - Sredneasiatskaya Ovtcharka"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba8e",
+    "nombreRaza": "Perro Pastor De Los Pirineos De Pelo Largo - Chien De Berger Des Pyrenees A Poil Long"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba8f",
+    "nombreRaza": "Perro Pastor De Shetland - Shetland Sheepdog"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba90",
+    "nombreRaza": "Perro Pastor Del Cáucaso - Kavkazskaïa Ovtcharka"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba91",
+    "nombreRaza": "Perro San Bernardo - St.bernhardshund - Bernhardiner"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba92",
+    "nombreRaza": "Perro Sin Pelo Del Perú - Perro Sin Pelo Del Perú"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba93",
+    "nombreRaza": "Perro Smous Holandés - Hollandse Smoushond"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba94",
+    "nombreRaza": "Perro Sueco De Laponia - Svensk Lapphund "
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba95",
+    "nombreRaza": "Perro Tejonero De Westfalia - Westfälische Dachsbracke"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba96",
+    "nombreRaza": "Perro Tejonero Sueco - Drever"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba97",
+    "nombreRaza": "Petit Brabançon - Petit Brabançon"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba98",
+    "nombreRaza": "Pinscher Alemán - Deutscher Pinscher"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba99",
+    "nombreRaza": "Pinscher Austriaco - österreichischer Pinscher "
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba9a",
+    "nombreRaza": "Pinscher Miniatura - Zwergpinscher"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba9b",
+    "nombreRaza": "Podenco Andaluz - Podenco Andaluz"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba9c",
+    "nombreRaza": "Podenco Canario - Podenco Canario"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba9d",
+    "nombreRaza": "Podenco Ibicenco - Podenco Ibicenco"
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba9e",
+    "nombreRaza": "Podenco Portugués - Podengo Português "
+  },
+  {
+    "_id": "6235478e22ef53cb8134ba9f",
+    "nombreRaza": "Pointer Inglés - English Pointer"
+  },
+  {
+    "_id": "6235478e22ef53cb8134baa0",
+    "nombreRaza": "Porcelaine - Porcelaine"
+  },
+  {
+    "_id": "6235478e22ef53cb8134baa1",
+    "nombreRaza": "Pudelpointer - Pudelpointer"
+  },
+  {
+    "_id": "6235478e22ef53cb8134baa2",
+    "nombreRaza": "Puli - Puli"
+  },
+  {
+    "_id": "6235478e22ef53cb8134baa3",
+    "nombreRaza": "Pumi - Pumi"
+  },
+  {
+    "_id": "6235478e22ef53cb8134baa4",
+    "nombreRaza": "Rafeiro Del Alentejo - Rafeiro Do Alentejo "
+  },
+  {
+    "_id": "6235478e22ef53cb8134baa5",
+    "nombreRaza": "Rastreador De Hannover - Hannover'scher Schweisshund "
+  },
+  {
+    "_id": "6235478e22ef53cb8134baa6",
+    "nombreRaza": "Rastreador Montañes De Baviera - Bayerischer Gebirgsschweisshund"
+  },
+  {
+    "_id": "6235478e22ef53cb8134baa7",
+    "nombreRaza": "Ratonero Valenciano - Ratonero Valenciano"
+  },
+  {
+    "_id": "6235478e22ef53cb8134baa8",
+    "nombreRaza": "Rottweiler - Rottweiler"
+  },
+  {
+    "_id": "6235478e22ef53cb8134baa9",
+    "nombreRaza": "Sabueso Alemán - Deutsche Bracke"
+  },
+  {
+    "_id": "6235478e22ef53cb8134baaa",
+    "nombreRaza": "Sabueso Anglo-francés De Tamaño Mediano - Anglo-français De Petite Venerie "
+  },
+  {
+    "_id": "6235478e22ef53cb8134baab",
+    "nombreRaza": "Sabueso Artesiano - Chien D'artois"
+  },
+  {
+    "_id": "6235478e22ef53cb8134baac",
+    "nombreRaza": "Sabueso Austriaco Negro Y Fuego - Brandlbracke - (vieräugl) "
+  },
+  {
+    "_id": "6235478e22ef53cb8134baad",
+    "nombreRaza": "Sabueso De Bosnia De Pelo Cerdoso-llamado Barak - Bosanski Ostrodlaki Gonic-barak"
+  },
+  {
+    "_id": "6235478e22ef53cb8134baae",
+    "nombreRaza": "Sabueso De Hygen - Hygenhund"
+  },
+  {
+    "_id": "6235478e22ef53cb8134baaf",
+    "nombreRaza": "Sabueso De Istria De Pelo Corto - Istarski Kratkodlaki Gonic"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bab0",
+    "nombreRaza": "Sabueso De Istria De Pelo Duro - Istarski Ostrodlaki Gonic"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bab1",
+    "nombreRaza": "Sabueso De Montaña Del Montenegro - Crnogorski Planinski Gonic "
+  },
+  {
+    "_id": "6235478e22ef53cb8134bab2",
+    "nombreRaza": "Sabueso De Småland - Smålandsstövare"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bab3",
+    "nombreRaza": "Sabueso De Transilvania - Erdélyi Kopó"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bab4",
+    "nombreRaza": "Sabueso Del Ariege - Ariegeois"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bab5",
+    "nombreRaza": "Sabueso Del Tirol - Tiroler Bracke"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bab6",
+    "nombreRaza": "Sabueso Del Valle De Save - Posavski Gonic"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bab7",
+    "nombreRaza": "Sabueso Eslovaco - Slovenský Kopov"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bab8",
+    "nombreRaza": "Sabueso Español - Sabueso Español"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bab9",
+    "nombreRaza": "Sabueso Estirio De Pelo áspero - Steirische Rauhhaarbracke"
+  },
+  {
+    "_id": "6235478e22ef53cb8134baba",
+    "nombreRaza": "Sabueso Finlandés - Suomenajokoira"
+  },
+  {
+    "_id": "6235478e22ef53cb8134babb",
+    "nombreRaza": "Sabueso Francés Blanco Y Naranja - Français Blanc Et Orange"
+  },
+  {
+    "_id": "6235478e22ef53cb8134babc",
+    "nombreRaza": "Sabueso Francés Blanco Y Negro - Français Blanc Et Noir"
+  },
+  {
+    "_id": "6235478e22ef53cb8134babd",
+    "nombreRaza": "Sabueso Francés Tricolor - Français Tricolore"
+  },
+  {
+    "_id": "6235478e22ef53cb8134babe",
+    "nombreRaza": "Sabueso Halden - Haldenstøver"
+  },
+  {
+    "_id": "6235478e22ef53cb8134babf",
+    "nombreRaza": "Sabueso Hamilton - Hamiltonstövare"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bac0",
+    "nombreRaza": "Sabueso Helénico - Hellinikos Ichnilatis"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bac1",
+    "nombreRaza": "Sabueso Húngaro - Sabueso De Transilvania - Erdélyi Kopó"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bac2",
+    "nombreRaza": "Sabueso Italiano De Pelo Duro - Segugio Italiano A Pelo Forte"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bac3",
+    "nombreRaza": "Sabueso Italiano De Pelo Raso - Segugio Italiano A Pelo Raso"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bac4",
+    "nombreRaza": "Sabueso Noruego - Dunker"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bac5",
+    "nombreRaza": "Sabueso Poitevin - Poitevin"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bac6",
+    "nombreRaza": "Sabueso Polaco - Ogar Polski "
+  },
+  {
+    "_id": "6235478e22ef53cb8134bac7",
+    "nombreRaza": "Sabueso Schiller - Schillerstövare"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bac8",
+    "nombreRaza": "Sabueso Serbio - Srpski Gonic"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bac9",
+    "nombreRaza": "Sabueso Suizo - Schweizer Laufhund"
+  },
+  {
+    "_id": "6235478e22ef53cb8134baca",
+    "nombreRaza": "Sabueso Suizo Pequeño - Schweizerischer Niederlaufhund"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bacb",
+    "nombreRaza": "Sabueso Tricolor Serbio - Srpski Trobojni Gonic"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bacc",
+    "nombreRaza": "Saluki  - Saluki "
+  },
+  {
+    "_id": "6235478e22ef53cb8134bacd",
+    "nombreRaza": "Samoyedo - Samoiedskaïa Sabaka"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bace",
+    "nombreRaza": "Schapendoes Neerlandés - Nederlandse Schapendoes"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bacf",
+    "nombreRaza": "Schipperke - Schipperke"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bad0",
+    "nombreRaza": "Schnauzer  - Schnauzer "
+  },
+  {
+    "_id": "6235478e22ef53cb8134bad1",
+    "nombreRaza": "Schnauzer Gigante - Riesenschnauzer"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bad2",
+    "nombreRaza": "Schnauzer Miniatura - Zwergschnauzer"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bad3",
+    "nombreRaza": "Scottish Terrier - Scottish Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bad4",
+    "nombreRaza": "Sealyham Terrier - Sealyham Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bad5",
+    "nombreRaza": "Setter Gordon - Gordon Setter "
+  },
+  {
+    "_id": "6235478e22ef53cb8134bad6",
+    "nombreRaza": "Setter Inglés - English Setter "
+  },
+  {
+    "_id": "6235478e22ef53cb8134bad7",
+    "nombreRaza": "Setter Irlandés Rojo - Irish Red Setter"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bad8",
+    "nombreRaza": "Setter Irlandés Rojo Y Blanco - Irish Red And White Setter"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bad9",
+    "nombreRaza": "Shar Pei - Shar Pei"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bada",
+    "nombreRaza": "Shiba - Shiba"
+  },
+  {
+    "_id": "6235478e22ef53cb8134badb",
+    "nombreRaza": "Shih Tzu - Shih Tzu"
+  },
+  {
+    "_id": "6235478e22ef53cb8134badc",
+    "nombreRaza": "Shikoku - Shikoku"
+  },
+  {
+    "_id": "6235478e22ef53cb8134badd",
+    "nombreRaza": "Skye Terrier - Skye Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bade",
+    "nombreRaza": "Sloughi - Sloughi"
+  },
+  {
+    "_id": "6235478e22ef53cb8134badf",
+    "nombreRaza": "Soft Coated Wheaten Terrier Irlandés - Irish Soft Coated Wheaten Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bae0",
+    "nombreRaza": "Spaniel Azul De Picardia - Epagneul Bleu De Picardie "
+  },
+  {
+    "_id": "6235478e22ef53cb8134bae1",
+    "nombreRaza": "Spaniel Bretón - Epagneul Breton"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bae2",
+    "nombreRaza": "Spaniel Continental Enano De Compañía - Epagneul Nain Continental"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bae3",
+    "nombreRaza": "Spaniel De Pont-audemer - Epagneul De Pont-audemer"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bae4",
+    "nombreRaza": "Spaniel Francés - Epagneul Français"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bae5",
+    "nombreRaza": "Spaniel Japonés - Chin "
+  },
+  {
+    "_id": "6235478e22ef53cb8134bae6",
+    "nombreRaza": "Spaniel Picardo - Epagneul Picard"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bae7",
+    "nombreRaza": "Spaniel Tibetano - Tibetan Spaniel"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bae8",
+    "nombreRaza": "Spitz Alemán - Deutscher Spitz"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bae9",
+    "nombreRaza": "Spitz De Los Visigodos - Vallhund Sueco - Västgötaspets"
+  },
+  {
+    "_id": "6235478e22ef53cb8134baea",
+    "nombreRaza": "Spitz De Norrbotten - Norrbottenspets"
+  },
+  {
+    "_id": "6235478e22ef53cb8134baeb",
+    "nombreRaza": "Spitz Finlandés - Suomenpystykorva"
+  },
+  {
+    "_id": "6235478e22ef53cb8134baec",
+    "nombreRaza": "Spitz Japonés - Nihon Supittsu"
+  },
+  {
+    "_id": "6235478e22ef53cb8134baed",
+    "nombreRaza": "Springer Spaniel Galés - Welsh Springer Spaniel"
+  },
+  {
+    "_id": "6235478e22ef53cb8134baee",
+    "nombreRaza": "Springer Spaniel Inglés - English Springer Spaniel"
+  },
+  {
+    "_id": "6235478e22ef53cb8134baef",
+    "nombreRaza": "Staffordshire Bull Terrier - Staffordshire Bull Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134baf0",
+    "nombreRaza": "Sussex Spaniel  - Sussex Spaniel "
+  },
+  {
+    "_id": "6235478e22ef53cb8134baf1",
+    "nombreRaza": "Tchuvatch Eslovaco - Slovenský Cuvac"
+  },
+  {
+    "_id": "6235478e22ef53cb8134baf2",
+    "nombreRaza": "Teckel - Dachshund "
+  },
+  {
+    "_id": "6235478e22ef53cb8134baf3",
+    "nombreRaza": "Terranova - Newfoundland "
+  },
+  {
+    "_id": "6235478e22ef53cb8134baf4",
+    "nombreRaza": "Terrier Brasileño - Terrier Brasileiro "
+  },
+  {
+    "_id": "6235478e22ef53cb8134baf5",
+    "nombreRaza": "Terrier Cazador Alemán - Deutscher Jagdterrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134baf6",
+    "nombreRaza": "Terrier Checo - Ceský Terier "
+  },
+  {
+    "_id": "6235478e22ef53cb8134baf7",
+    "nombreRaza": "Terrier De Juguete Inglés - English Toy Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134baf8",
+    "nombreRaza": "Terrier Glen De Imaal Irlandés - Irish Glen Of Imaal Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134baf9",
+    "nombreRaza": "Terrier Irlandés - Irish Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bafa",
+    "nombreRaza": "Terrier Jack Russell - Jack Russell Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bafb",
+    "nombreRaza": "Terrier Japonés - Nihon Teria "
+  },
+  {
+    "_id": "6235478e22ef53cb8134bafc",
+    "nombreRaza": "Terrier Ruso Negro - Russkiy Tchiorny Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bafd",
+    "nombreRaza": "Terrier Sedoso Australiano - Australian Silky Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bafe",
+    "nombreRaza": "Terrier Tibetano - Tibetan Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134baff",
+    "nombreRaza": "Thai Ridgeback Dog - Thai Ridgeback Dog"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bb00",
+    "nombreRaza": "Tosa - Tosa"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bb01",
+    "nombreRaza": "Volpino Italiano - Volpino Italiano"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bb02",
+    "nombreRaza": "Weimaraner - Weimaraner"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bb03",
+    "nombreRaza": "Welsh Corgi Cardigan - Welsh Corgi Cardigan"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bb04",
+    "nombreRaza": "Welsh Corgi Pembroke - Welsh Corgi Pembroke"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bb05",
+    "nombreRaza": "Welsh Terrier - Welsh Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bb06",
+    "nombreRaza": "West Highland White Terrier - West Highland White Terrier"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bb07",
+    "nombreRaza": "Whippet - Whippet"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bb08",
+    "nombreRaza": "Xoloitzcuintle - Xoloitzcuintle"
+  },
+  {
+    "_id": "6235478e22ef53cb8134bb09",
+    "nombreRaza": "Yorkshire Terrier - Yorkshire Terrier,"
+  }
+]

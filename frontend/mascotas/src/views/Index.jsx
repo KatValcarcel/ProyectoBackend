@@ -19,7 +19,7 @@ export const Index = () => {
                     <Link to='/login' className='col'>
                         <Button>Ingresar</Button>
                     </Link>
-                    <Link to='/register' className='col'>
+                    <Link to='/registrar' className='col'>
                         <Button>Registro</Button>
                     </Link>
                 </div>

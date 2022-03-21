@@ -15,8 +15,8 @@ body {
   text-align: center;
 }
 .logo {
-  max-width: 10%;
-  align-self: center;
+  max-width: 20%;
+  min-width: 10%;
 }
 .container {
   margin: 3em;
