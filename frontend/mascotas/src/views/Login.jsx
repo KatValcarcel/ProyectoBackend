@@ -27,6 +27,9 @@ export const Login = () => {
                 <div>
                     ¿Eres nuevo? <Link to='/register'>Registrar</Link>
                 </div>
+                <div>
+                    <Link to='/forgot-password'>¿Olvidaste tu contraseña?</Link>
+                </div>
             </Container>
         </Fragment>
     )

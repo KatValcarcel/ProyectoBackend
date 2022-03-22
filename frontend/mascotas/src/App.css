@@ -28,3 +28,6 @@ body {
 .formulario {
   margin-top: 30px;
 }
+.boton {
+  border-radius: 20px;
+}

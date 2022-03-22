@@ -56,7 +56,7 @@ export class contactoService {
         to: usuarioEncontrado.email,
         html: `
         <h2>Hola ${usuarioEncontrado.nombre}, ¿has olvidado tu contraseña?</h2>
-        <p>Ingresa al siguiente link para restaurarla: </p><code>http://localhost:3001/reset-password/?token=${token}</code>
+        <p>Ingresa al siguiente link para restaurarla: </p><code>${process.env.URL_PROD}reset-password/?token=${token}</code>
         `,
       });
       console.log(respuesta);

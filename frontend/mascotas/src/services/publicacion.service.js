@@ -6,8 +6,8 @@ const request = axios.create({
     "Content-Type": "application/json",
   },
 });
-export const registrarPublicacion = (token) => {
-  return request.post("/publicacion", {
+export const registrarPublicacion = (data, token) => {
+  return request.post("/publicacion", data, {
     headers: { authorization: `Bearer ${token}` },
   });
 };

@@ -2,6 +2,9 @@ import React, { Fragment, useEffect, useState } from 'react'
 import decode from 'jwt-decode'
 import { listarMascotas } from '../services/mascota.service'
 import { Mascota } from '../components/Mascota'
+import Barra from '../components/Barra';
+import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 export const Contacto = () => {
 
@@ -14,35 +17,38 @@ export const Contacto = () => {
 
         async function traerMascotas() {
             try {
-                const { data } = await listarMascotas(token)
-                console.log(data);
+                const { data } = await listarMascotas(user.id, token)
                 setMascotas(data)
+                console.log(data);
             } catch (e) {
                 alert('Error al traer la información')
             }
         }
 
         traerMascotas()
-    }, [token])
+    }, [user.id, token])
 
 
     return (
         <Fragment>
+            <Barra />
             <div>
                 <div>
-                    {
-                        user && <h1> Hola {user.nombre} {user.apellido} </h1>
-                    }
-                    <h1>
-                        Hola {user?.nombre} {user?.apellido}
-                    </h1>
+                    <h4>
+                        Hola, {user?.nombre}
+                    </h4>
                 </div>
                 <div>
                     {/* Pasando los props */}
-                    {mascotas.map((mascota) => (<Mascota key={mascota._id} {...mascota} />))}
+                    {!mascotas ? mascotas.map((mascota) => (<Mascota key={mascota._id} {...mascota} />)) : "Aun no tienes publicaciones registradas"}
                 </div>
-
+                <div>
+                    <Link to='/registro-mascota' className='col'>
+                        <Button>Realizar una publicación</Button>
+                    </Link>
+                </div>
             </div>
+
         </Fragment>
     )
 }

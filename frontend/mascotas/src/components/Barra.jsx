@@ -14,14 +14,17 @@ function Barra() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto ">
-              <Nav.Link href="#home">Perdí a mi mascota</Nav.Link>
-              <Nav.Link href="#link">Encontré a una mascota</Nav.Link>
+              <Nav.Link href="/registro-publicacion">Perdí a mi mascota</Nav.Link>
+              <Nav.Link href="/registro-publicacion">Encontré a una mascota</Nav.Link>
               <NavDropdown title="Publicaciones" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.2">
+                <NavDropdown.Item href="/publicaciones/encontrados">
                   Mascotas Encontradas
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
+                <NavDropdown.Item href="publicaciones/perdidos">
                   Mascotas Perdidas
+                </NavDropdown.Item>
+                <NavDropdown.Item href="publicaciones">
+                  Ver Todas
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="/login">

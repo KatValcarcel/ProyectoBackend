@@ -6,13 +6,13 @@ const request = axios.create({
     "Content-Type": "application/json",
   },
 });
-export const registrarMascota = (token) => {
-  return request.post("/mascota", {
+export const registrarMascota = (data, token) => {
+  return request.post("/mascota", data, {
     headers: { authorization: `Bearer ${token}` },
   });
 };
-export const listarMascotas = (token) => {
-  return request.get("/mascotas", {
+export const listarMascotas = (id, token) => {
+  return request.get(`/mascotas/${id}`, {
     headers: { authorization: `Bearer ${token}` },
   });
 };

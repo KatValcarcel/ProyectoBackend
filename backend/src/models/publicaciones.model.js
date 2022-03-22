@@ -9,6 +9,7 @@ const publicacionSchema = new mongoose.Schema(
     },
     activo: {
       type: mongoose.Schema.Types.Boolean,
+      default: true,
     },
     descripcion: mongoose.Schema.Types.String,
 

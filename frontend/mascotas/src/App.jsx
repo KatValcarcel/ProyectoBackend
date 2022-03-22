@@ -9,6 +9,9 @@ import { Login } from "./views/Login";
 import { RegistrarMascota } from "./views/RegistrarMascota";
 import { RegistrarPublicacion } from "./views/RegistrarPublicacion";
 import { RutaPrivada } from "./RutaPrivada";
+import { OlvidoContraseña } from "./views/OlvidoContraseña";
+import { ResetPassword } from "./views/ResetPassword";
+import { Publicaciones } from "./views/Publicaciones";
 
 function App() {
   useEffect(() => {
@@ -23,6 +26,9 @@ function App() {
     <Routes>
       <Route path="/" element={<Index />} />
       <Route path="/registrar" element={<Register />} />
+      <Route path="/publicaciones" element={<Publicaciones />} />
+      <Route path="/forgot-password" element={<OlvidoContraseña />} />
+      <Route path="/reset-password" element={<ResetPassword />} />
       <Route path="/login" element={<Login />} />
       <Route path="/registro-mascota" element={<RutaPrivada>
         <RegistrarMascota />

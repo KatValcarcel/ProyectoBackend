@@ -30,8 +30,8 @@ export class MascotaService {
 
     return nuevaMascota;
   }
-  static async devolver(contactoId) {
-    const mascotas = await Mascota.find({ contactoId });
+  static async devolver() {
+    const mascotas = await Mascota.find();
 
     return mascotas;
   }

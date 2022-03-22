@@ -7,6 +7,7 @@ export const Register = () => {
     const navigate = useNavigate();
     const [form, setForm] = useState({
         nombre: '',
+        apellido: '',
         usuario: '',
         telefono: '',
         email: '',
@@ -32,8 +33,12 @@ export const Register = () => {
         <Fragment>
             <Form onSubmit={crearContacto} className='container'>
                 <Form.Group className="mb-3" >
-                    <Form.Label htmlFor='nombre'>Nombre y Apellido*</Form.Label>
+                    <Form.Label htmlFor='nombre'>Nombre*</Form.Label>
                     <Form.Control id="nombre" type="text" placeholder="Lucho/Karen" onChange={editarValor} />
+                </Form.Group>
+                <Form.Group className="mb-3" >
+                    <Form.Label htmlFor='apellido'>Apellido*</Form.Label>
+                    <Form.Control id="apellido" type="text" placeholder="Ingals" onChange={editarValor} />
                 </Form.Group>
                 <Form.Group className="mb-3"  >
                     <Form.Label htmlFor='usuario'>Usuario*</Form.Label>
