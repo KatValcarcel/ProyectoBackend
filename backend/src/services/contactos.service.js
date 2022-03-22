@@ -17,13 +17,13 @@ export class contactoService {
           id: user._id,
           nombre: user.nombre,
           apellido: user.apellido,
+          email: user.email,
         },
-        process.env.SECRET_JWT,
+        process.env.JWT_SECRET,
         {
-          expiresIn: "5h",
+          expiresIn: "24h",
         }
       );
-
       return {
         token,
       };

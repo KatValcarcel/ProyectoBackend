@@ -13,11 +13,12 @@ export async function crearMascota(req, res) {
     });
   }
 }
-
+//Devolver mascotas de usuario
 export async function devolverMascotas(req, res) {
-  const resultado = await MascotaService.devolver();
+  const resultado = await MascotaService.devolver(req.contactoId);
   return res.json(resultado);
 }
+
 export async function getMascota(req, res) {
   try {
     const mascota = await MascotaService.get(req.params.id);

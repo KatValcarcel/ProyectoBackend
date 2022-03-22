@@ -7,6 +7,7 @@ import { Register } from "./views/Register";
 import { Contacto } from "./views/Contacto";
 import { Login } from "./views/Login";
 import { RegistrarMascota } from "./views/RegistrarMascota";
+import { RegistrarPublicacion } from "./views/RegistrarPublicacion";
 import { RutaPrivada } from "./RutaPrivada";
 
 function App() {
@@ -23,7 +24,17 @@ function App() {
       <Route path="/" element={<Index />} />
       <Route path="/registrar" element={<Register />} />
       <Route path="/login" element={<Login />} />
-      <Route path="/registro-mascota" element={<RegistrarMascota />} />
+      <Route path="/registro-mascota" element={<RutaPrivada>
+        <RegistrarMascota />
+      </RutaPrivada>} />
+      <Route
+        path="/registro-publicacion"
+        element={
+          <RutaPrivada>
+            <RegistrarPublicacion />
+          </RutaPrivada>
+        }
+      />
       <Route
         path="/contacto"
         element={

@@ -23,10 +23,10 @@ export async function validarUsuario(req, res, next) {
   const token = req.headers.authorization.split(" ")[1];
   const resultado = verificarToken(token);
   if (typeof resultado === "object") {
-    const usuario = await Contacto.findById(resultado.id).select("correo _id");
-    req.user = usuario;
-    // const { id } = resultado;
-    // req.user = id;
+    // const usuario = await Contacto.findById(resultado.id).select("correo _id");
+    // req.user = usuario;
+    const { id } = resultado;
+    req.user = id;
 
     next();
   } else {

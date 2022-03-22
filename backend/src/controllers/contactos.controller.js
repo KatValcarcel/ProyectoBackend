@@ -5,6 +5,7 @@ export async function registrarContacto(req, res) {
   try {
     const data = contactoDto(req.body);
     const nuevoContacto = await contactoService.registrar(data);
+    console.log(nuevoContacto);
     return res.status(201).json(nuevoContacto);
   } catch (error) {
     return res.status(400).json({

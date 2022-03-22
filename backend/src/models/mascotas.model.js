@@ -38,7 +38,7 @@ const mascotaSchema = new mongoose.Schema({
   //   enum: ["Perdido", "Encontrado", "EnCasa"],
   //   alias: "estadoMascota",
   // },
-  contacto: {
+  contactoId: {
     type: mongoose.Schema.Types.ObjectId,
   },
   publicaciones: {

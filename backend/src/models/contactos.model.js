@@ -6,10 +6,10 @@ const contactoSchema = new mongoose.Schema(
     nombre: {
       type: mongoose.Schema.Types.String,
       required: true,
-      // nested: {
-      //   firstName: { type: String },
-      //   lastName: { type: String },
-      // },
+    },
+    apellido: {
+      type: mongoose.Schema.Types.String,
+      required: true,
     },
     usuario: {
       type: mongoose.Schema.Types.String,

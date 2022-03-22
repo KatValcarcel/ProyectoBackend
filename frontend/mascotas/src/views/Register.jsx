@@ -46,9 +46,7 @@ export const Register = () => {
                 <Form.Group className="mb-3">
                     <Form.Label htmlFor='email'>Correo*</Form.Label>
                     <Form.Control id='email' type="email" placeholder="usuario@mascotasperdidas.com" onChange={editarValor} />
-                    <Form.Text className="text-muted">
-                        No compartiremos tu email con nadie ;)
-                    </Form.Text>
+
                 </Form.Group>
                 <Form.Group className="mb-3">
                     <Form.Label htmlFor='password'>Password*</Form.Label>

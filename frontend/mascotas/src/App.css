@@ -15,9 +15,16 @@ body {
   text-align: center;
 }
 .logo {
-  width: 3em;
-  min-width: 10%;
+  max-width: 70px;
 }
-.container {
-  margin: 3em;
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.body {
+  margin: 40px;
+}
+.formulario {
+  margin-top: 30px;
 }

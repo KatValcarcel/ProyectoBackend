@@ -12,3 +12,14 @@ export const getServerInfo = () => {
 export const createUser = (data) => {
   return request.post("/registrar", data);
 };
+export const getUser = (token) => {
+  return request.get("/contacto/:id", {
+    headers: { authorization: `Bearer ${token}` },
+  });
+};
+
+export const subirArchivo = (token) => {
+  return request.post("/archivo", {
+    headers: { authorization: `Bearer ${token}` },
+  });
+};

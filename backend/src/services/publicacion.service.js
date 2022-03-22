@@ -1,5 +1,6 @@
 import { Publicacion } from "../models/publicaciones.model.js";
 import { Mascota } from "../models/mascotas.model.js";
+import { Contacto } from "../models/contactos.model.js";
 
 export class publicacionService {
   static async crear(data) {
@@ -102,9 +103,16 @@ export class publicacionService {
   static async get(id) {
     const publicacion = await Publicacion.findById(id);
     const mascotaEncontrada = await Mascota.findById(publicacion.mascotaId);
+    const contactoId = mascotaEncontrada.contactoId;
+    console.log(contactoId);
+    const contactoEncontrado = await Contacto.findOne({
+      contactoId,
+      activo: true,
+    });
     const publicacionConMascota = {
       ...publicacion._doc,
-      mascotaId: mascotaEncontrada,
+      mascota: mascotaEncontrada,
+      contacto: contactoEncontrado,
     };
     return publicacionConMascota;
   }

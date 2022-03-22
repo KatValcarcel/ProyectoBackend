@@ -9,7 +9,7 @@ export function mascotaDto({
   edad_aprox,
   imagen,
   descripcion,
-  contacto,
+  contactoId,
   // estado,
 }) {
   // if (validator.isEmpty(nombre)) {
@@ -30,7 +30,7 @@ export function mascotaDto({
     edad_aprox,
     imagen,
     descripcion,
-    contacto,
+    contactoId,
     // estado,
   };
 }

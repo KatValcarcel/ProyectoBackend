@@ -1,20 +1,16 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import logo from "../images/logo.png";
 import { Button } from 'react-bootstrap';
+import Barra from '../components/Barra';
+// import BarraLateral from '../components/BarraLateral';
 
 export const Index = () => {
 
 
     return (
         <Fragment>
+            <Barra />
             <div className='container'>
-                <div className='row'>
-                    <img src={logo} alt="logo" className="logo" />
-                </div>
-                <div className='row'>
-                    Redes Sociales
-                </div>
                 <div className='row'>
                     <Link to='/login' className='col'>
                         <Button>Ingresar</Button>
@@ -24,6 +20,7 @@ export const Index = () => {
                     </Link>
                 </div>
             </div>
+            {/* <BarraLateral></BarraLateral> */}
         </Fragment>
     )
 }

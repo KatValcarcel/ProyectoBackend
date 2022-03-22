@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import { Form, Button, Container } from 'react-bootstrap';
+import "../App.css";
 
 export const Login = () => {
     const iniciarSesion = (e) => {
@@ -9,8 +10,8 @@ export const Login = () => {
     }
     return (
         <Fragment>
-            <Container>
-                <Form onSubmit={iniciarSesion}>
+            <Container className="formulario">
+                <Form onSubmit={iniciarSesion} >
                     <Form.Group className="mb-3">
                         <Form.Label htmlFor='correoLogin'>Correo</Form.Label>
                         <Form.Control id="correoLogin" type="email" placeholder="usuario@mascotasperdidas.com" />

@@ -17,31 +17,21 @@ export class MascotaService {
       };
     }
     // validar que no exista esa mascota del mismo dueño previamente .findOne({ nombreMascota, contactoId});
-    // const registro = await Mascota.findOne({ });
-    // if (registro) {
-    //   return {
-    //     message: "Ya hay una mascota registrada",
-    //   };
-    // }
+    const { nombre, contactoId } = data;
+    const registro = await Mascota.findOne({ nombre, contactoId });
+    if (registro) {
+      return {
+        message: "Ya hay una mascota registrada",
+      };
+    }
 
     //crear
-    //TODO: contactoID FK
     const nuevaMascota = await Mascota.create(data);
 
-    //establecer relación en contacto
-    // await Contacto.updateOne(
-    //   { _id: contacto._id },
-    //   {
-    //     mascotas: [
-    //       ...contacto.publicaciones,
-    //       nuevaMascota._id,
-    //     ],
-    //   }
-    // );
     return nuevaMascota;
   }
-  static async devolver() {
-    const mascotas = await Mascota.find();
+  static async devolver(contactoId) {
+    const mascotas = await Mascota.find({ contactoId });
 
     return mascotas;
   }
