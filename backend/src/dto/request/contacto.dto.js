@@ -7,6 +7,7 @@ export function contactoDto({
   email,
   telefono,
   password,
+  tipo,
 }) {
   if (validator.isEmpty(nombre)) {
     throw Error("El nombre no puede estar vacío");
@@ -29,5 +30,5 @@ export function contactoDto({
       "Su contraseña debe tener al menos 8 caracteres (hasta 32 caracteres) y al menos un número y una letra"
     );
   }
-  return { nombre, apellido, usuario, email, telefono, password };
+  return { nombre, apellido, usuario, email, telefono, password, tipo };
 }

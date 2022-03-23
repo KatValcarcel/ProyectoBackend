@@ -1,5 +1,6 @@
 import express, { json } from "express";
 import cors from "cors";
+import morgan from "morgan";
 import mongoose from "mongoose";
 import { contactoRouter } from "./routes/contacto.routes.js";
 import { imagenRouter } from "./routes/imagen.routes.js";
@@ -10,6 +11,7 @@ import { archivoRouter } from "./routes/archivo.routes.js";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
 import sgMail from "@sendgrid/mail";
+import { authRouter } from "./routes/auth.routes.js";
 
 sgMail.setApiKey(process.env.MASCOTAS_EMAIL);
 
@@ -18,6 +20,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const app = express();
 app.use(json());
 app.use(cors());
+app.use(morgan("dev"));
 
 const PORT = process.env.PORT ?? 3000;
 
@@ -28,7 +31,8 @@ app.use(
   imagenRouter,
   razaRouter,
   publicacionRouter,
-  archivoRouter
+  archivoRouter,
+  authRouter
 );
 app.use("/media", express.static(__dirname + "/images"));
 

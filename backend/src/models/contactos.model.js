@@ -39,6 +39,11 @@ const contactoSchema = new mongoose.Schema(
     mascotas: {
       type: [mongoose.Schema.Types.ObjectId],
     },
+    tipo: {
+      type: mongoose.Schema.Types.String,
+      enum: ["KATMINI", "USER"],
+      default: "USER",
+    },
   },
   {
     timestamps: true,
