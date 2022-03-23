@@ -22,6 +22,7 @@ export async function devolverMascotas(req, res) {
 export async function getMascota(req, res) {
   try {
     const mascota = await MascotaService.get(req.params.id);
+    console.log("Mascota:", mascota);
     res.status(200).json({ mascota });
   } catch (error) {
     res

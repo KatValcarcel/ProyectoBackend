@@ -38,19 +38,19 @@ export class publicacionService {
   // Devolver publicaciones según su tipo
   static async devolverMascotasEncontradas() {
     const razas = await Publicacion.find({ estado: "ENCONTRADO" }).sort({
-      updatedAt: "desc",
+      updatedAt: "asc",
     });
     return razas;
   }
   static async devolverMascotasPerdidas() {
     const razas = await Publicacion.find({ estado: "PERDIDO" }).sort({
-      updatedAt: "desc",
+      updatedAt: "asc",
     });
     return razas;
   }
   //listar todas
   static async listar() {
-    const publicaciones = await Publicacion.find().sort({ updatedAt: "desc" });
+    const publicaciones = await Publicacion.find().sort({ updatedAt: "asc" });
     return publicaciones;
   }
 
@@ -100,19 +100,27 @@ export class publicacionService {
 
     return publicacionActualizada;
   }
+
   static async get(id) {
     const publicacion = await Publicacion.findById(id);
-    const mascotaEncontrada = await Mascota.findById(publicacion.mascotaId);
-    const contactoId = mascotaEncontrada.contactoId;
-    console.log(contactoId);
-    const contactoEncontrado = await Contacto.findOne({
-      contactoId,
-      activo: true,
-    });
+    const mascotaEncontrada = await Mascota.findById(
+      publicacion.mascotaId.valueOf()
+    );
+    const contactoEncontrado = await Contacto.findById(
+      mascotaEncontrada.contactoId.valueOf()
+    );
+    const { telefono } = contactoEncontrado;
+    // console.log(mascotaEncontrada);
+    // const contactoId = mascotaEncontrada.contactoId;
+    // console.log(contactoId);
+    // const contactoEncontrado = await Contacto.findOne({
+    //   contactoId,
+    //   activo: true,
+    // });
     const publicacionConMascota = {
       ...publicacion._doc,
       mascota: mascotaEncontrada,
-      contacto: contactoEncontrado,
+      contacto: telefono,
     };
     return publicacionConMascota;
   }
